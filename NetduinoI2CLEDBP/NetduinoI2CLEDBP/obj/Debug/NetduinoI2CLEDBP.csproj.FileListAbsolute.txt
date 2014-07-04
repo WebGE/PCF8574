@@ -1,0 +1,17 @@
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\le\NetduinoApplication1.exe
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\be\NetduinoApplication1.exe
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\le\NetduinoApplication1.pdb
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\be\NetduinoApplication1.pdb
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\NetduinoApplication1.exe
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\NetduinoApplication1.pdb
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\le\NetduinoApplication1.pe
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\le\NetduinoApplication1.pdbx
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\be\NetduinoApplication1.pe
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\bin\Debug\be\NetduinoApplication1.pdbx
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\obj\Debug\TinyCLR_DebugReferences.cache
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\obj\Debug\be\NetduinoApplication1.pe
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\obj\Debug\be\NetduinoApplication1.pdbx
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\obj\Debug\le\NetduinoApplication1.pe
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\obj\Debug\le\NetduinoApplication1.pdbx
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\obj\Debug\NetduinoApplication1.exe
+c:\users\philippe\documents\visual studio 2010\Projects\NetduinoApplication1\NetduinoApplication1\obj\Debug\NetduinoApplication1.pdb
