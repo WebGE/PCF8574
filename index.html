@@ -104,6 +104,27 @@
 <td>Instancie un objet "PCF8574". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x2F] pour un PCF8574 et dans l'intervalle [0x38,0x37] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
 </tr>
 </table>
+<p><strong>Méthodes publiques</strong></p>
+
+<table>
+<tr>
+<td></td>
+<td><strong>Syntaxe</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
+<td>
+<strong>byte ReadByte</strong>()</td>
+<td>Renvoie un byte représentatif de la valeur présente sur le port du PCF8574.</td>
+</tr>
+<tr>
+<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
+<td>
+<strong>void WriteByte</strong>(<strong>byte</strong> <em>value</em>)</td>
+<td><p><em>value</em>: octet à écrire sur le port du PCF8574.</p></td>
+</tr>
+</table>
       </section>
     </div>
 
