@@ -78,11 +78,45 @@
 <li>
 <strong>Distributeur</strong> : <a href="http://www.lextronic.fr/recherche.html?mots_cles=PRODUIT-ID29733" target="_blank">Lextronic</a>
 </li>
-</ul><h3><hr>
+</ul>
  <hr><h5>
 <a name="classe-PCF8574" class="anchor" href="#classe-PCF8574"><span class="octicon octicon-link"></span></a>Classe PCF8574</h5>
 <hr><p><strong>Constructeur</strong></p>
+<hr>
+<p><strong>Utilisation</strong></p>
+<hr>
+<ol>
+	<li><strong>Créer</strong> un objet en utilisant le constructeur MotorControlMD2x approprié.</li>
+	<li><strong>Régler</strong> la fréquence de rotation des moteurs avec la méthode <strong>SetSpeedTurn.</strong></li>
+	<li><strong>etc...</strong></li>
+</ol>
+<hr>
+<p><strong>Constructeur</strong></p>
 
+<table>
+<tr>
+<td></td>
+<td><strong>Syntaxe</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
+<td><strong>MotorControlMD2x()</strong></td>
+<td>Instancie un objet "carte MD25". <br> L'addresse sur le bus I2C = 0x58. <br> La fréquence de l'horloge est fixée à F = 100kHz </td>
+</tr>
+<tr>
+<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
+<td>
+<strong>MotorControlMD2x</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>)</td>
+<td>Instancie un objet "carte MD25". <br><em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x58,0x5F]. <br>La fréquence de l'horloge est fixée à F = 100kHz.</td>
+</tr>
+<tr>
+<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
+<td>
+<strong>MotorControlMD2x</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
+<td>Instancie un objet "carte MD25". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x58,0x5F]. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
+</tr>
+</table>
       </section>
     </div>
 
