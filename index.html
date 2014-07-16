@@ -79,13 +79,14 @@
 <strong>Distributeur</strong> : <a href="http://www.lextronic.fr/recherche.html?mots_cles=PRODUIT-ID29733" target="_blank">Lextronic</a>
 </li>
 </ul>
+<hr><h3>
 <a name="classe-PCF8574" class="anchor" href="#classe-PCF8574"><span class="octicon octicon-link"></span></a>Classe PCF8574</h5>
-<hr>
+</h3><hr>
 <p><strong>Utilisation</strong></p>
 <hr>
 <ol>
 	<li><strong>Créer</strong> un objet en utilisant le constructeur PCF8574 approprié.</li>
-	<li><strong>Utiliser</strong> la méthode WriteByte pour écrire et la méthode<strong>ReadByte</strong>pour lire</li>
+	<li><strong>Utiliser</strong> la méthode <em>WriteByte</em> pour écrire et la méthode <em>ReadByte</em> pour lire.</li>
 </ol>
 <hr>
 <p><strong>Constructeur</strong></p>
@@ -98,20 +99,9 @@
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
-<td><strong>MotorControlMD2x()</strong></td>
-<td>Instancie un objet "carte MD25". <br> L'addresse sur le bus I2C = 0x58. <br> La fréquence de l'horloge est fixée à F = 100kHz </td>
-</tr>
-<tr>
-<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 <td>
-<strong>MotorControlMD2x</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>)</td>
-<td>Instancie un objet "carte MD25". <br><em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x58,0x5F]. <br>La fréquence de l'horloge est fixée à F = 100kHz.</td>
-</tr>
-<tr>
-<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
-<td>
-<strong>MotorControlMD2x</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
-<td>Instancie un objet "carte MD25". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x58,0x5F]. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
+<strong>PCF8574</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
+<td>Instancie un objet "PCF8574". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x2F] pour un PCF8574 et dans l'intervalle [0x38,0x37] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
 </tr>
 </table>
       </section>
