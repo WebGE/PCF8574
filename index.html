@@ -46,8 +46,9 @@
  <hr>
  <h3> Exemple d'IHM</h3>
  <p><img src="https://lh5.googleusercontent.com/f3gmEOrYLfdhlzekaLnlQfJzibKGl0s-_dm_A1-Vuqo=w209-h207-p-no" width="50%" height="50%"></p>
- <hr>
- <h3><hr>
+<p>Les huit Leds et les huit boutons-poussoir sont commandés par deux PCF8574</p> 
+<hr>
+ <h3>
 <a name="carte-netduino-de-secret-labs" class="anchor" href="#carte-netduino-de-secret-labs" target="_blank"><span class="octicon octicon-link"></span></a>Carte NetDuino plus 2 </h3><h5>Secret Labs</h5>
 <hr>
 <ul>
@@ -85,8 +86,8 @@
 <p><strong>Utilisation</strong></p>
 <hr>
 <ol>
-	<li><strong>Créer</strong> un objet en utilisant le constructeur PCF8574 approprié.</li>
-	<li><strong>Utiliser</strong> la méthode <em>WriteByte</em> pour écrire et la méthode <em>ReadByte</em> pour lire.</li>
+	<li><strong>Créer</strong> un objet en utilisant le constructeur PCF8574.</li>
+	<li><strong>Utiliser</strong> la méthode <em>WriteByte</em> pour écrire sur le port relié aux Leds et la méthode <em>ReadByte</em> pour lire le port relié aux boutons-poussoir.</li>
 </ol>
 <hr>
 <p><strong>Constructeur</strong></p>
@@ -101,7 +102,7 @@
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 <td>
 <strong>PCF8574</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
-<td>Instancie un objet "PCF8574". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x2F] pour un PCF8574 et dans l'intervalle [0x38,0x37] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
+<td>Instancie un objet "PCF8574". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x2F] pour un PCF8574 et dans l'intervalle [0x38,0x3F] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
 </tr>
 </table>
 <p><strong>Méthodes publiques</strong></p>
