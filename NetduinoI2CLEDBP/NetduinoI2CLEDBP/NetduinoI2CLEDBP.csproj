@@ -8,10 +8,11 @@
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{BB75CB93-00BF-4E0F-9951-FE7F067EB56E}</ProjectGuid>
-    <TargetFrameworkVersion>v4.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.3</TargetFrameworkVersion>
     <NetMfTargetsBaseDir Condition="'$(NetMfTargetsBaseDir)'==''">$(MSBuildExtensionsPath32)\Microsoft\.NET Micro Framework\</NetMfTargetsBaseDir>
     <DeployDevice>Netduino</DeployDevice>
     <DeployTransport>USB</DeployTransport>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

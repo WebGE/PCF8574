@@ -12,8 +12,8 @@ namespace NetduinoI2CLEDBP
            public static void Main()
         {
             // Paramètres du bus I2C
-            byte addLeds_I2C = 0x20; // Adresse (7 bits) du PCF8574 relié aux LED
-            byte addBPs_I2C = 0x27;  // Adresse (7 bits) du PCF8574 relié aux BP
+            byte addLeds_I2C = 0x38; // Adresse (7 bits) du PCF8574A relié aux LED
+            byte addBPs_I2C = 0x3F;  // Adresse (7 bits) du PCF8574A relié aux BP
             Int16 FreqLed = 100; // Fréquence d'horloge du bus I2C en kHz 
             Int16 FreqBP = 200; // Elle peut être différente pour chaque composant
             
