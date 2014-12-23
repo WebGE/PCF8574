@@ -5,7 +5,7 @@ using Microsoft.SPOT.Hardware;
 
 using Toolbox;
 
-namespace NetduinoI2CLEDBP
+namespace TestNetduinoI2CLEDBP
 {
     public class Program
     {

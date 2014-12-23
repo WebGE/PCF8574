@@ -11,6 +11,7 @@ namespace Toolbox
         private I2CDevice.Configuration ConfigPCF8574;
         private I2CDevice BusI2C;
 
+        
         // Constructeur
         /// <summary>
         /// Adressing and frequency
@@ -23,7 +24,11 @@ namespace Toolbox
         }
 
         // Méthodes publiques
-        // ----------------------------------------------------------------------------------------------        
+        // ----------------------------------------------------------------------------------------------
+        /// <summary>
+        /// Write a byte
+        /// </summary>
+        /// <param name="value"></param>
         public void WriteByte(Byte value)
         {
             // Création d'un buffer et d'une transaction pour l'accès au circuit en écriture
@@ -36,7 +41,10 @@ namespace Toolbox
             BusI2C.Dispose(); // Déconnexion virtuelle de l'objet PCF8574 du bus I2C
         }
 
-        
+        /// <summary>
+        /// Read a byte
+        /// </summary>
+        /// <returns></returns>
         public byte ReadByte()
         {           
             // Création d'un buffer et d'une transaction pour l'accès au circuit en lecture
