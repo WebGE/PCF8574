@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Threading;
-using Microsoft.SPOT;
-using Microsoft.SPOT.Hardware;
-
 using Toolbox;
 
-namespace NetduinoI2CLEDBP
+namespace TestNetduinoI2CLEDBP
 {
     public class Program
     {
            public static void Main()
-        {
+        {   // Pour accéder au bus I2C, relier le PCF8574 au connecteur TWI de la 
+            // carte Tinkerkit. Placer des résistances de rappel (3,3k) entre le +5V et les sorties SCL et SDA
+
             // Paramètres du bus I2C
             byte addLeds_I2C = 0x38; // Adresse (7 bits) du PCF8574A relié aux LED
             byte addBPs_I2C = 0x3F;  // Adresse (7 bits) du PCF8574A relié aux BP
