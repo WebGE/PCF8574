@@ -31,10 +31,10 @@
       <section id="main_content" class="inner">
         <h3><hr>
 <a name="pcf8574--remote-8-bit-io-expander-for-i-2c-bus" class="anchor" href="#pcf8574--remote-8-bit-io-expander-for-i-2c-bus"><span class="octicon octicon-link"></span></a>PCF8574 : remote 8-bit I/O expander for I 2C-bus</h3>
-<hr>
+<hr/>
 <ul>
   <li><strong>Présentation</strong></li>
-<p> Le PCF8574 est un circuit intégré permettant de contrôler huit entrées / sorties numériques par l'intermédiaire d'un bus I2C. Il peut être utiliser pour interfacer des Led ou des boutons-poussoir comme dans l'exemple d'IHM ci-dessous.</p>
+  <p> Le PCF8574 est un circuit intégré permettant de contrôler huit entrées / sorties numériques par l'intermédiaire d'un bus I2C. Il peut être utiliser pour interfacer des Led ou des boutons-poussoir comme dans l'exemple d'IHM ci-dessous.</p>
   <li><strong>Schéma interne du composant</strong></li>
   <p align="center"><img src="http://domotique.benchi.fr/wp-content/uploads/2011/08/int_pcf8574-300x199.gif"></p>
   <li><strong>Adressage</strong></li>
@@ -49,92 +49,76 @@
 <p>Les huit Leds et les huit boutons-poussoir sont commandés par deux PCF8574. L'IHM est reliée à une carte Netduino+2.</p> 
 <p>Afficheur I2C 2x16 BATRON ou MIDAS: <a href="http://webge.github.io/LCDI2C/">Page à voir</a></p>
 <hr/>
- <h3>
-<a name="carte-netduino-de-secret-labs" class="anchor" href="#carte-netduino-de-secret-labs" target="_blank"><span class="octicon octicon-link"></span></a>Carte NetDuino plus 2 </h3><h5>Secret Labs</h5>
-<hr>
+<h3><a name="carte-netduino-de-secret-labs" class="anchor" href="#carte-netduino-de-secret-labs" target="_blank"><span class="octicon octicon-link"></span></a>Carte NetDuino plus 2 </h3>
+<h5>Secret Labs</h5>
+<hr/>
 <ul>
-<li>
-<strong>Microcontrôleur</strong> : STM32F405RG 32 bits à architecture Cortex-M4 cadencé à 168 MHz.</li>
-<li>
-<strong>RAM</strong> : 100 KB.</li>
-<li>
-<strong>Flash</strong> : 384 KB.</li>
-<li>
-<strong>Port Ethernet</strong> 10Mbps.</li>
-<li>
-<strong>E/S numériques</strong> : 14</li>
-<li>
-<strong>Entrées analogiques</strong> : 6</li>
-<li>
-<strong>IDE</strong> : Microsoft Visual Studio (professionnel ou express)</li>
-<li>
-<strong>Framework</strong> : micro framework .NET (NETMF)</li>
-<li>
-<strong>Langage de programmation</strong> : C#</li>
-</ul><p align="center"><img src="http://cdn.netduino.com/images/hardware/netduino2/photo_overhead.gif" alt="Netduino+ 2"></p>
-
-<ul>
-<li>
-<strong>Sites à consulter</strong>: <a href="http://netduino.com/netduinoplus2/specs.htm" target="_blank">Netduino</a>, <a href="http://www.netmf.com/" target="_blank">NETMF</a>
-</li>
-<li>
-<strong>Distributeurs</strong> : <a href="http://www.robotshop.com/en/catalogsearch/result/?q=netduino&order=stats_sales_order_count&dir=desc" target="_blank">RobotShop</a>, <a href="http://www.mouser.fr/Search/Refine.aspx?Keyword=netduino" target="_blank">Mouser Electronics</a>
-</li>
+	<li><strong>Microcontrôleur</strong> : STM32F405RG 32 bits à architecture Cortex-M4 cadencé à 168 MHz.</li>
+	<li><strong>RAM</strong> : 100 KB.</li>
+	<li><strong>Flash</strong> : 384 KB.</li>
+	<li><strong>Port Ethernet</strong> 10Mbps.</li>
+	<li><strong>E/S numériques</strong> : 14</li>
+	<li><strong>Entrées analogiques</strong> : 6</li>
+	<li><strong>IDE</strong> : Microsoft Visual Studio (professionnel ou express)</li>
+	<li><strong>Framework</strong> : micro framework .NET (NETMF)</li>
+	<li><strong>Langage de programmation</strong> : C#</li>
 </ul>
-<hr><h3>
-<a name="classe-PCF8574" class="anchor" href="#classe-PCF8574"><span class="octicon octicon-link"></span></a>Classe PCF8574</h5>
-</h3><hr>
+<p align="center"><img src="http://cdn.netduino.com/images/hardware/netduino2/photo_overhead.gif" alt="Netduino+ 2"></p>
+<ul>
+	<li><strong>Sites à consulter</strong>: <a href="http://netduino.com/netduinoplus2/specs.htm" target="_blank">Netduino</a>, <a href="http://www.netmf.com/" target="_blank">NETMF</a></li>
+	<li><strong>Distributeurs</strong> : <a href="http://www.robotshop.com/en/catalogsearch/result/?q=netduino&order=stats_sales_order_count&dir=desc" target="_blank">RobotShop</a>, <a href="http://www.mouser.fr/Search/Refine.aspx?Keyword=netduino" target="_blank">Mouser Electronics</a></li>
+</ul>
+<hr/>
+<h3><a name="classe-PCF8574" class="anchor" href="#classe-PCF8574"><span class="octicon octicon-link"></span></a>Classe PCF8574</h5></h3>
+<hr/>
 <p><strong>Contenu du dossier à télécharger</strong></p>
-<hr>
+<hr/>
 <p> Le dossier à télécharger (au format zip ou tar.gz) contient le répertoire d'un projet <strong>Microsoft Visual Studio Professionnel</strong> composé : </p>
 <ul>
 	<li>Du code de la classe PCF8574.</li>
 	<li>D'un exemple d'utilisation de cette classe.</li>
 </ul>
 <p> Les fichiers program.cs et DriversPCF8574.cs pourront être recompilés avec <strong>Microsoft Visual Studio Express</strong>.</p>
-<hr>
+<hr/>
 <p><strong>Utilisation</strong></p>
-<hr>
+<hr/>
 <ol>
 	<li><strong>Créer</strong> un objet en utilisant le constructeur PCF8574.</li>
 	<li><strong>Utiliser</strong> la méthode <em>WriteByte</em> pour écrire sur le port relié aux Leds et la méthode <em>ReadByte</em> pour lire le port relié aux boutons-poussoir.</li>
 </ol>
-<hr>
+<hr/>
+
 <p><strong>Constructeur</strong></p>
-
 <table>
-<tr>
-<td></td>
-<td><strong>Syntaxe</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
-<td>
-<strong>PCF8574</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
-<td>Instancie un objet "PCF8574". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x2F] pour un PCF8574 et dans l'intervalle [0x38,0x3F] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
-</tr>
+	<tr>
+		<td></td>
+		<td><strong>Syntaxe</strong></td>
+		<td><strong>Description</strong></td>
+	</tr>
+	<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
+		<td><strong>PCF8574</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
+		<td>Instancie un objet "PCF8574". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x2F] pour un PCF8574 et dans l'intervalle [0x38,0x3F] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
+	</tr>
 </table>
-<p><strong>Méthodes publiques</strong></p>
 
+<p><strong>Méthodes publiques</strong></p>
 <table>
-<tr>
-<td></td>
-<td><strong>Syntaxe</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
-<td>
-<strong>byte ReadByte</strong>()</td>
-<td>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574.</td>
-</tr>
-<tr>
-<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
-<td>
-<strong>void WriteByte</strong>(<strong>byte</strong> <em>value</em>)</td>
-<td><p><em>value</em>: octet à écrire sur le port du PCF8574.</p></td>
-</tr>
+	<tr>
+		<td></td>
+		<td><strong>Syntaxe</strong></td>
+		<td><strong>Description</strong></td>
+	</tr>
+	<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
+		<td><strong>byte ReadByte</strong>()</td>
+		<td>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574.</td>
+	</tr>
+	<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
+		<td><strong>void WriteByte</strong>(<strong>byte</strong> <em>value</em>)</td>
+		<td><p><em>value</em>: octet à écrire sur le port du PCF8574.</p></td>
+	</tr>
 </table>
 </section>
 </div>
