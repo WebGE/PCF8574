@@ -1,10 +1,11 @@
 ﻿using System;
-using Toolbox;
+
+using ToolBoxes;
 
 namespace TestNetduinoI2CLEDBP
 {
     public class Program
-    {
+    { // Documentation de la classe PCF8574 : http://webge.github.io/PCF8574/
            public static void Main()
         {   // Pour accéder au bus I2C, relier le PCF8574 au connecteur TWI de la 
             // carte Tinkerkit. Placer des résistances de rappel (3,3k) entre le +5V et les sorties SCL et SDA
@@ -23,15 +24,15 @@ namespace TestNetduinoI2CLEDBP
 
 
             byte stateLED = 0xFF; // Etat initial des Leds
-            Leds.WriteByte(stateLED);
+            Leds.Write(stateLED);
             
             while (true)
              {
                  // Lecture des BPs
-                 stateLED = BPs.ReadByte();
+                 stateLED = BPs.Read();
                  stateLED = (byte)~stateLED;
                  // Ecriture sur les Leds
-                 Leds.WriteByte(stateLED);                 
+                 Leds.Write(stateLED);                 
              }    
            }
     }

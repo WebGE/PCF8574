@@ -25,7 +25,6 @@ C:\Users\Philippe\Documents\GitHub\PCF8574\NetduinoI2CLEDBP\NetduinoI2CLEDBP\bin
 C:\Users\Philippe\Documents\GitHub\PCF8574\NetduinoI2CLEDBP\NetduinoI2CLEDBP\bin\Debug\le\NetduinoApplication1.pdbx
 C:\Users\Philippe\Documents\GitHub\PCF8574\NetduinoI2CLEDBP\NetduinoI2CLEDBP\bin\Debug\be\NetduinoApplication1.pe
 C:\Users\Philippe\Documents\GitHub\PCF8574\NetduinoI2CLEDBP\NetduinoI2CLEDBP\bin\Debug\be\NetduinoApplication1.pdbx
-C:\Users\Philippe\Documents\GitHub\PCF8574\NetduinoI2CLEDBP\NetduinoI2CLEDBP\obj\Debug\NetduinoI2CLEDBP.csprojResolveAssemblyReference.cache
 C:\Users\Philippe\Documents\GitHub\PCF8574\NetduinoI2CLEDBP\NetduinoI2CLEDBP\obj\Debug\TinyCLR_DebugReferences.cache
 C:\Users\Philippe\Documents\GitHub\PCF8574\NetduinoI2CLEDBP\NetduinoI2CLEDBP\obj\Debug\be\NetduinoApplication1.pe
 C:\Users\Philippe\Documents\GitHub\PCF8574\NetduinoI2CLEDBP\NetduinoI2CLEDBP\obj\Debug\be\NetduinoApplication1.pdbx
