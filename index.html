@@ -79,13 +79,13 @@
 	<li>Du code de la classe <em>PCF8574</em>.</li>
 	<li>D'un exemple d'utilisation de cette classe.</li>
 </ul>
-<p> Les fichiers program.cs et DriversPCF8574.cs pourront être recompilés avec <strong>Microsoft Visual Studio Express</strong>.</p>
+<p>Les fichiers program.cs et PCF8574.cs peuvent être recompilés avec <strong>Microsoft Visual Studio Express</strong>.</p>
 <hr/>
 <p><strong>Utilisation</strong></p>
 <hr/>
 <ol>
-	<li><strong>Créer</strong> un objet en utilisant le constructeur PCF8574.</li>
-	<li><strong>Utiliser</strong> la méthode <em>WriteByte</em> pour écrire sur le port relié aux Leds et la méthode <em>ReadByte</em> pour lire le port relié aux boutons-poussoir.</li>
+	<li><strong>Créer</strong> un objet en utilisant le constructeur <em>PCF8574</em>.</li>
+	<li><strong>Utiliser</strong> la méthode <em>Write</em> pour accéder au port en écriture et la méthode <em>Read</em> pour accéder au port en lecture.</li>
 </ol>
 <hr/>
 
@@ -99,7 +99,7 @@
 	<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 		<td><strong>PCF8574</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
-		<td>Instancie un objet "PCF8574". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x2F] pour un PCF8574 et dans l'intervalle [0x38,0x3F] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
+		<td>Instancie un objet "PCF8574(A)". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x2F] pour un PCF8574 et dans l'intervalle [0x38,0x3F] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
 	</tr>
 </table>
 
@@ -112,13 +112,13 @@
 	</tr>
 	<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
-		<td><strong>byte ReadByte</strong>()</td>
-		<td>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574.</td>
+		<td><strong>byte Read</strong>()</td>
+		<td>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574(A).</td>
 	</tr>
 	<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
-		<td><strong>void WriteByte</strong>(<strong>byte</strong> <em>value</em>)</td>
-		<td><p><em>value</em>: octet à écrire sur le port du PCF8574.</p></td>
+		<td><strong>void Write</strong>(<strong>byte</strong> <em>value</em>)</td>
+		<td><p><em>value</em>: octet à écrire sur le port du PCF8574(A).</p></td>
 	</tr>
 </table>
 </section>
