@@ -8,7 +8,7 @@ namespace ToolBoxes
     /// <summary>
     /// PCF8574 Remote 8-bit I/O expander forI2C-bus class
     /// </summary>
-    class PCF8574
+    public class PCF8574
     {
         // I2C
         private I2CDevice.Configuration Config;
