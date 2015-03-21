@@ -20,7 +20,7 @@ namespace ToolBoxes
         /// </summary>
         /// <param name="I2C_Add_7bits">PCF8574(@=0x20 to 0x27) PCF8574A(@=0x38 to 0x3f)</param>
         /// <param name="FreqBusI2C">100khz to 400kHz</param>
-        public PCF8574(ushort I2C_Add_7bits, Int16 FreqBusI2C)
+        public PCF8574(UInt16 I2C_Add_7bits, UInt16 FreqBusI2C)
         {
             Config = new I2CDevice.Configuration(I2C_Add_7bits, FreqBusI2C);    
         }

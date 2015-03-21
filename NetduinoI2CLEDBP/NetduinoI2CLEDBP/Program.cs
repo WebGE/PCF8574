@@ -13,8 +13,8 @@ namespace TestNetduinoI2CLEDBP
             // Paramètres du bus I2C
             byte addLeds_I2C = 0x38; // Adresse (7 bits) du PCF8574A relié aux LED
             byte addBPs_I2C = 0x3F;  // Adresse (7 bits) du PCF8574A relié aux BP
-            Int16 FreqLed = 100; // Fréquence d'horloge du bus I2C en kHz 
-            Int16 FreqBP = 200; // Elle peut être différente pour chaque composant
+            UInt16 FreqLed = 100; // Fréquence d'horloge du bus I2C en kHz 
+            UInt16 FreqBP = 200; // Elle peut être différente pour chaque composant
             
             // Création d'un objet Leds
             PCF8574 Leds = new PCF8574(addLeds_I2C, FreqLed);
