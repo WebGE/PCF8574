@@ -44,10 +44,10 @@
   <li><strong>Distributeur: </strong><a href="http://uk.farnell.com/texas-instruments/pcf8574an/ic-i2c-bus-expander-16dip/dp/1703443" target="_blank">Farnell</a></li>
 </ul>
 <hr/>
- <h3>Exemple d'IHM</h3>
- <p align="center"><img src="https://lh3.googleusercontent.com/VbQQzAQLCVlf74Hweaj5Y8AMZdqF8XHmvvpp8jQTOmc=w203-h207-p-no" width="50%" height="50%"></p>
-<p>Les huit Leds et les huit boutons-poussoir sont commandés par deux PCF8574. L'IHM est reliée à une carte Netduino+2.</p> 
-<p>Afficheur I2C 2x16 BATRON ou MIDAS: <a href="http://webge.github.io/LCDI2C/">Page à voir</a></p>
+ <h3>IHM SSI</h3>
+ <p align="center"><img src="https://lh6.googleusercontent.com/-DEtJD_G9Qy8/VUNNsubjwVI/AAAAAAAABXk/I3VgCwNuRsc/w380-h377-no/SSI2.jpg" width="50%" height="50%"></p>
+<p>La carte SSI comprend un afficheur I2C 2x16 BATRON ou MIDAS, huit Leds et huit boutons-poussoir connectés à deux PCF8574.
+<a href="http://webge.github.io/LCDI2C/">A voir</a></p> 
 <hr/>
 <h3><a name="carte-netduino-de-secret-labs" class="anchor" href="#carte-netduino-de-secret-labs" target="_blank">
 <span class="octicon octicon-link"></span></a>Carte NetDuino plus 2 </h3>
@@ -77,7 +77,7 @@
 <p> Le dossier à télécharger (au format zip ou tar.gz) contient le répertoire de la solution <strong>NetduinoI2CLEDBP</strong> composée : </p>
 <ul>
 	<li>Du projet <strong>PCF8574 </strong>: le code de la classe <em>PCF8574</em>.</li>
-	<li>Du projet <strong>TestI2CLEDBP </strong>: un exemple d'utilisation de cette classe.</li>
+	<li>Du projet <strong>TestNetduinoPCF8574 </strong>: un exemple d'utilisation de cette classe.</li>
 </ul>
 <hr/>
 <p><strong>Utilisation</strong></p>
@@ -85,11 +85,11 @@
 <ol>
 	<li><strong>Ajouter</strong> la référence<strong> PCF8574</strong> et l'espace de nom <strong>ToolBoxes </strong>dans le projet.</li>
 	<li><strong>Créer</strong> un objet en utilisant un des constructeurs <em>PCF8574</em>.</li>
-	<li><strong>Utiliser</strong> la méthode <em>Write</em> pour accéder au port en écriture et la méthode <em>Read</em> pour accéder au port en lecture.</li>
+	<li><strong>Utiliser</strong> la méthode <strong>Write</strong> pour accéder au port en écriture et la méthode <strong>Read</strong> pour accéder au port en lecture.</li>
 </ol>
 <hr/>
 
-<p><strong>Constructeur</strong></p>
+<p><strong>Constructeurs</strong></p>
 <table>
 	<tr>
 		<td></td>
