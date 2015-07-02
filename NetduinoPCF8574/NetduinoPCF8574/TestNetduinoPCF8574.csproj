@@ -1,18 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <AssemblyName>NetduinoApplication1</AssemblyName>
+    <AssemblyName>NetduinoPCF8574</AssemblyName>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NetduinoApplication1</RootNamespace>
+    <RootNamespace>NetduinoPCF8574</RootNamespace>
     <ProjectTypeGuids>{b69e3092-b931-443c-abe7-7e7b65f2a37f};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BB75CB93-00BF-4E0F-9951-FE7F067EB56E}</ProjectGuid>
+    <ProjectGuid>{A1D9505D-06DA-48AD-88CF-DC701625B13E}</ProjectGuid>
     <TargetFrameworkVersion>v4.3</TargetFrameworkVersion>
     <NetMfTargetsBaseDir Condition="'$(NetMfTargetsBaseDir)'==''">$(MSBuildExtensionsPath32)\Microsoft\.NET Micro Framework\</NetMfTargetsBaseDir>
     <DeployDevice>Netduino</DeployDevice>
     <DeployTransport>USB</DeployTransport>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,12 +38,15 @@
   <ItemGroup>
     <Reference Include="Microsoft.SPOT.Hardware" />
     <Reference Include="Microsoft.SPOT.Native" />
+    <Reference Include="PCF8574">
+      <HintPath>..\PCF8574\bin\Debug\PCF8574.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PCF8574\PCF8574.csproj">
-      <Project>{A0A12570-1ADB-4CBE-B583-1F0244C80DA2}</Project>
-      <Name>PCF8574</Name>
-    </ProjectReference>
+    <Content Include="Lisez-moi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Doc_A_Consulter\" />
   </ItemGroup>
 </Project>
