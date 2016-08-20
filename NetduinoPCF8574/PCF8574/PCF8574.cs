@@ -13,7 +13,6 @@ namespace ToolBoxes
         private I2CDevice.Configuration Config;
         private I2CDevice BusI2C;
 
-        // Constructeur
         /// <summary>
         /// Constructor
         /// </summary>

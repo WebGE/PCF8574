@@ -40,13 +40,13 @@
     <Reference Include="Microsoft.SPOT.Native" />
     <Reference Include="PCF8574">
       <HintPath>..\PCF8574\bin\Debug\PCF8574.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Doc_A_Consulter\Chenillard.jpg" />
     <Content Include="Lisez-moi.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Doc_A_Consulter\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>

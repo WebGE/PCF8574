@@ -38,4 +38,7 @@
     <Reference Include="Microsoft.SPOT.Native">
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="PCF8574.cd" />
+  </ItemGroup>
 </Project>
