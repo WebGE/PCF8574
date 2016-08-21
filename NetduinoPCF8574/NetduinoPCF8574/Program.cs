@@ -10,7 +10,7 @@ namespace TestNetduinoPCF8574
     { // Documentation de la classe PCF8574 http://webge.github.io/PCF8574/
         public static void Main()
         { // Pour accéder au bus I2C, relier le connecteur TWI de la carte Tinkerkit au Hub I2C
-          // et le hub I2C à l'IHM SISI (voir la photo dans Doc_A_Consulter)
+          // et le hub I2C à l'IHM SSI (voir la photo dans Doc_A_Consulter)
             // Paramètres du bus I2C
             byte addLeds_I2C = 0x38; // Adresse (7 bits) du PCF8574A relié aux Leds de l'IHM SI
             Int16 Freq = 100; // Fréquence d'horloge du bus I2C en kHz
