@@ -45,10 +45,10 @@
 </ul>
 <hr/>
  <h3>IHM SSI</h3>
- <p>L'IHM SSI <a href="https://webge.github.io/IHMSSI/" target="_blank">[Documentation]</a> comprend :</p>
+ <p>L'<strong>I</strong>nterface <strong>H</strong>omme <strong>M</strong>achine SSI se compose :</p>
 	<ul>
-		<li>un afficheur I2C 2x16 BATRON ou MIDAS à PCF2119 <a href="https://webge.github.io/LCDI2C/" target="_blank">[Documentation]</a>,</li>
-		<li>huit Leds et huit boutons-poussoir connectés à deux PCF8574 </li>
+		<li>d'un afficheur I²C 2x16 (MIDAS ou BATRON) à <a href="https://webge.github.io/LCDI2C/" target="_blank">PCF2119</a>,</li>
+		<li>de huit leds et de huit boutons-poussoir connectés à deux PCF8574.</li>
 	</ul>
  <p align="center"><img src="images/IHMSISI.jpg" width="50%" height="50%"></p>
 <hr/>
@@ -61,8 +61,9 @@
 	<li><strong>RAM</strong> : 100 KB (164+)*.</li>
 	<li><strong>Flash</strong> : 384 KB (1408KB)*.</li>
 	<li><strong>Port Ethernet : </strong> 10Mbps (Wifi:802.11b/g/n)*.</li>
-	<li><strong>E/S numériques</strong> : 14</li>
+	<li><strong>E/S numériques</strong> : 22</li>
 	<li><strong>Entrées analogiques</strong> : 6</li>
+	<li><strong>Stockage</strong>: carte µSD</li>
 	<li><strong>IDE</strong> : Microsoft Visual Studio</li>
 	<li><strong>Framework</strong> : .NETMF 4.3</li>
 	<li><strong>Langages de programmation</strong> : C#, VB</li>
@@ -75,7 +76,7 @@
 	</tr>
 	<tr>
 		<td align="center"><strong>Netduino + 2</strong></td>
-		<td  align="center"><strong>Netduino 3 wifi*</strong></td>
+		<td  align="center"><strong>Netduino 3 wifi* (compatible Gadgeteer)</strong></td>
 	</tr>
 </table>
 
@@ -84,11 +85,17 @@
 	<li><strong>Distributeurs</strong> : <a href="http://www.mouser.fr/Search/Refine.aspx?Keyword=netduino" target="_blank">Mouser Electronics</a></li>
 </ul>
 <hr/>
-<h3><a name="classe-PCF8574" class="anchor" href="#classe-PCF8574"><span class="octicon octicon-link"></span></a>Classe PCF8574</h5></h3>
+<h3>Classe PCF8574</h3>
+<ul>
+	<li><strong>Rôle: </strong>Contrôle huit entrées / sorties numériques.</li>
+	<li><strong>Espace de noms:</strong> ToolBoxes</li>
+	<li><strong>Assembly:</strong>PCF8574</li>
+</ul>
 <hr/>
 <p><strong>Contenu du dossier à télécharger</strong></p>
 <hr/>
-<p> Le dossier à télécharger (au format zip ou tar.gz) contient le répertoire de la solution <strong>NetduinoPCF8574</strong> composée : </p>
+<p> Le répertoire à télécharger (au format zip ou tar.gz) contient la solution <strong>PCF8574</strong> composée : </p>
+<p> Le dossier à télécharger (au format zip ou tar.gz) contient le répertoire de la solution <strong></strong> composée : </p>
 <ul>
 	<li>Du projet <strong>PCF8574 </strong>: le code de la classe <em>PCF8574</em>.</li>
 	<li>Du projet <strong>TestNetduinoPCF8574 </strong>: un exemple d'utilisation de cette classe.</li>
