@@ -9,4 +9,6 @@ A NETMF library for PCF8574 : remote 8-bit I/O expander for I 2C-bus
 
 Code written in C# with Visual Studio 2013.
 
+NetduinoPCF8574 : Example test program.
+
 
