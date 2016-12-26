@@ -1,160 +1,178 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Contrôler les LED et les boutons-poussoir d'une Interface Homme Machine (IHM) avec des circuits PCF8574 : Programme de test en C# et description de la classe PCF8574" />
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <title>PCF8574</title>
-  </head>
+<head>
+	<meta charset='utf-8' />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+	<meta name="description" content="Contrôler les LED et les boutons-poussoir d'une Interface Homme Machine (IHM) avec des circuits PCF8574 : Programme de test en C# et description de la classe PCF8574"
+	/>
+	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<title>PCF8574</title>
+</head>
 
-  <body>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/WebGE/PCF8574">View on GitHub</a>
+	<!-- HEADER -->
+	<div id="header_wrap" class="outer">
+		<header class="inner">
+			<a id="forkme_banner" href="https://github.com/WebGE/PCF8574">View on GitHub</a>
 
-          <h1 id="project_title">Port d'entrées / sorties 8 bits I²C</h1>
-          <h2 id="project_tagline">Description de la classe <strong><em>PCF8574</em></strong> développée en C# pour une Netduino plus 2 ou une Netduino 3.</h2>
+			<h1 id="project_title">Port d'entrées / sorties 8 bits I²C</h1>
+			<h2 id="project_tagline">Description de la classe <strong><em>PCF8574</em></strong> développée en C# pour une Netduino plus 2 ou une Netduino 3.</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/WebGE/PCF8574/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/WebGE/PCF8574/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+			<section id="downloads">
+				<a class="zip_download_link" href="https://github.com/WebGE/PCF8574/zipball/master">Download this project as a .zip file</a>
+				<a class="tar_download_link" href="https://github.com/WebGE/PCF8574/tarball/master">Download this project as a tar.gz file</a>
+			</section>
+		</header>
+	</div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3><hr>
-<a name="pcf8574--remote-8-bit-io-expander-for-i-2c-bus" class="anchor" href="#pcf8574--remote-8-bit-io-expander-for-i-2c-bus"><span class="octicon octicon-link"></span></a>Le circuit intégré PCF8574 : remote 8-bit I/O expander for I 2C-bus</h3>
-<hr/>
-<ul>
-  <li><strong>Présentation</strong></li>
-  <p> Le PCF8574 est un circuit intégré permettant de contrôler huit entrées / sorties numériques par l'intermédiaire d'un bus I²C. Il peut être utiliser pour interfacer des Led ou des boutons-poussoir comme dans l'exemple d'interface homme machine présentée ci-dessous.</p>
-  <li><strong>Schéma interne du composant</strong></li>
-  <p align="center"><img src="http://domotique.benchi.fr/wp-content/uploads/2011/08/int_pcf8574-300x199.gif"></p>
-  <li><strong>Adressage</strong></li>
-  <p align="center"><img src="http://domotique.benchi.fr/wp-content/uploads/2011/08/adr_pcf8574.gif"></p>
-  <p align="center"><img src="http://domotique.benchi.fr/wp-content/uploads/2011/08/adr_pcf8574a.gif"></p>
-  <li><strong>Documentation: </strong><a href="http://www.nxp.com/documents/data_sheet/PCF8574.pdf" target="_blank">pdf</a></li>
-  <li><strong>Distributeur: </strong><a href="http://uk.farnell.com/texas-instruments/pcf8574an/ic-i2c-bus-expander-16dip/dp/1703443" target="_blank">Farnell</a></li>
-</ul>
-<hr/>
- <h3>IHM SSI</h3>
- <p>L'<strong>I</strong>nterface <strong>H</strong>omme <strong>M</strong>achine <strong><a href="https://webge.github.io/IHMSSI/" target="_blank">SSI</a></strong> se compose :</p>
-	<ul>
-		<li>d'un afficheur I²C 2x16 (MIDAS ou BATRON) à <a href="https://webge.github.io/LCDI2C/" target="_blank">PCF2119</a>,</li>
-		<li>de huit leds et de huit boutons-poussoir connectés à deux PCF8574.</li>
-	</ul>
- <p align="center"><img src="images/IHMSISI.jpg" width="50%" height="50%"></p>
-<hr/>
-<h3><a name="carte-netduino-de-secret-labs" class="anchor" href="#carte-netduino-de-secret-labs" target="_blank">
-<span class="octicon octicon-link"></span></a>Les cartes Netduino</h3>
-<h5>Secret Labs</h5>
-<hr/>
-<ul>
-	<li><strong>Microcontrôleur</strong> : STM32F405RG 32 bits à architecture Cortex-M4 cadencé à 168 MHz.</li>
-	<li><strong>RAM</strong> : 100 KB (164+)*.</li>
-	<li><strong>Flash</strong> : 384 KB (1408KB)*.</li>
-	<li><strong>Port Ethernet : </strong> 10Mbps (Wifi:802.11b/g/n)*.</li>
-	<li><strong>E/S numériques</strong> : 22</li>
-	<li><strong>Entrées analogiques</strong> : 6</li>
-	<li><strong>Stockage</strong>: carte µSD</li>
-	<li><strong>IDE</strong> : Microsoft Visual Studio</li>
-	<li><strong>Framework</strong> : .NETMF 4.3</li>
-	<li><strong>Langages de programmation</strong> : C#, VB</li>
-</ul>
+	<!-- MAIN CONTENT -->
+	<div id="main_content_wrap" class="outer">
+		<section id="main_content" class="inner">
+			<h3>
+				<hr>
+				<a name="pcf8574--remote-8-bit-io-expander-for-i-2c-bus" class="anchor" href="#pcf8574--remote-8-bit-io-expander-for-i-2c-bus"><span class="octicon octicon-link"></span></a>Le circuit intégré PCF8574 : remote 8-bit I/O expander for I 2C-bus</h3>
+			<hr/>
+			<ul>
+				<li><strong>Présentation</strong></li>
+				<p> Le PCF8574 est un circuit intégré permettant de contrôler huit entrées / sorties numériques par l'intermédiaire d'un
+					bus I²C. Il peut être utiliser pour interfacer des Led ou des boutons-poussoir comme dans l'exemple d'interface homme
+					machine présentée ci-dessous.</p>
+				<li><strong>Schéma interne du composant</strong></li>
+				<p align="center"><img src="http://domotique.benchi.fr/wp-content/uploads/2011/08/int_pcf8574-300x199.gif"></p>
+				<li><strong>Adressage</strong></li>
+				<p align="center"><img src="http://domotique.benchi.fr/wp-content/uploads/2011/08/adr_pcf8574.gif"></p>
+				<p align="center"><img src="http://domotique.benchi.fr/wp-content/uploads/2011/08/adr_pcf8574a.gif"></p>
+				<li><strong>Documentation: </strong><a href="http://www.nxp.com/documents/data_sheet/PCF8574.pdf" target="_blank">pdf</a></li>
+				<li><strong>Distributeur: </strong><a href="http://uk.farnell.com/texas-instruments/pcf8574an/ic-i2c-bus-expander-16dip/dp/1703443"
+						target="_blank">Farnell</a></li>
+			</ul>
+			<hr/>
+			<h3>IHM SSI</h3>
+			<p>L'<strong>I</strong>nterface <strong>H</strong>omme <strong>M</strong>achine <strong><a href="https://webge.github.io/IHMSSI/" target="_blank">SSI</a></strong>				se compose :</p>
+			<ul>
+				<li>d'un afficheur I²C 2x16 (MIDAS ou BATRON) à <a href="https://webge.github.io/LCDI2C/" target="_blank">PCF2119</a>,</li>
+				<li>de huit leds et de huit boutons-poussoir connectés à deux PCF8574.</li>
+			</ul>
+			<p align="center"><img src="images/IHMSISI.jpg" width="50%" height="50%"></p>
+			<hr/>
+			<h3>
+				<a name="carte-netduino-de-secret-labs" class="anchor" href="#carte-netduino-de-secret-labs" target="_blank">
+					<span class="octicon octicon-link"></span></a>Les cartes Netduino</h3>
+			<h5>Secret Labs</h5>
+			<hr/>
+			<ul>
+				<li><strong>Microcontrôleur</strong> : STM32F405RG 32 bits à architecture Cortex-M4 cadencé à 168 MHz.</li>
+				<li><strong>RAM</strong> : 100 KB (164+)*.</li>
+				<li><strong>Flash</strong> : 384 KB (1408KB)*.</li>
+				<li><strong>Port Ethernet : </strong> 10Mbps (Wifi:802.11b/g/n)*.</li>
+				<li><strong>E/S numériques</strong> : 22</li>
+				<li><strong>Entrées analogiques</strong> : 6</li>
+				<li><strong>Stockage</strong>: carte µSD</li>
+				<li><strong>IDE</strong> : Microsoft Visual Studio</li>
+				<li><strong>Framework</strong> : .NETMF 4.3</li>
+				<li><strong>Langages de programmation</strong> : C#, VB</li>
+			</ul>
 
-<table>
-	<tr>
-		<td><img src="http://www.mouser.com/images/microsites/Netduino_Plus_2.jpg" alt="Netduino plus 2" /></td>
-		<td><img src="http://static.netduino.com/images/netduino3wifi/specs/inputandoutput.jpg" alt="Netduino 3 wifi" /></td>
-	</tr>
-	<tr>
-		<td align="center"><strong>Netduino + 2</strong></td>
-		<td  align="center"><strong>Netduino 3 wifi* (compatible Gadgeteer)</strong></td>
-	</tr>
-</table>
+			<table>
+				<tr>
+					<td><img src="http://www.mouser.com/images/microsites/Netduino_Plus_2.jpg" alt="Netduino plus 2" /></td>
+					<td><img src="http://static.netduino.com/images/netduino3wifi/specs/inputandoutput.jpg" alt="Netduino 3 wifi" /></td>
+				</tr>
+				<tr>
+					<td align="center"><strong>Netduino + 2</strong></td>
+					<td align="center"><strong>Netduino 3 wifi* (compatible Gadgeteer)</strong></td>
+				</tr>
+			</table>
 
-<ul>
-	<li><strong>Sites à consulter</strong> : <a href="http://netduino.com/netduinoplus2/specs.htm" target="_blank">Netduino</a>, <a href="http://www.netmf.com/" target="_blank">NETMF</a></li>
-	<li><strong>Distributeurs</strong> : <a href="http://www.mouser.fr/Search/Refine.aspx?Keyword=netduino" target="_blank">Mouser Electronics</a></li>
-</ul>
-<hr/>
-<h3>Wiki</h3>
-<ul>
-	<li><strong>Exemple pour la carte Netduino sur Wikispaces: <a href="https://csharpembarquenetduino.wikispaces.com/" target="_blank">lien</a></strong></li>
-</ul>
-<hr>
-<h3>Classe PCF8574</h3>
-<ul>
-	<li><strong>Rôle: </strong>Contrôle huit entrées / sorties numériques.</li>
-	<li><strong>Espace de noms: </strong>ToolBoxes</li>
-	<li><strong>Assembly: </strong>PCF8574</li>
-</ul>
-<hr/>
-<p><strong>Contenu du dossier à télécharger</strong></p>
-<hr/>
-<p> Le répertoire à télécharger (au format zip ou tar.gz) contient la solution <strong>NetduinoPCF8574</strong> composée : </p>
-<ul>
-	<li>Du projet <strong>PCF8574 </strong>: le code de la classe <em>PCF8574</em>.</li>
-	<li>Du projet <strong>TestNetduinoPCF8574 </strong>: un exemple d'utilisation de cette classe.</li>
-</ul>
-<hr/>
-<p><strong>Utilisation</strong></p>
-<hr/>
-<ol>
-	<li><strong>Ajouter</strong> l'(es) assembly(s) dans le répertoire <em>référence</em> du projet et l'espace de noms <strong>ToolBoxes</strong> dans l'en-tête du fichier source.</li>
-	<li><strong>Créer</strong> un objet en utilisant le constructeur <em>PCF8574</em>.</li>
-	<li><strong>Utiliser</strong> la méthode <strong>Write</strong> pour accéder au port en écriture et la méthode <strong>Read</strong> pour accéder au port en lecture.</li>
-</ol>
-<hr/>
+			<ul>
+				<li><strong>Sites à consulter</strong> : <a href="http://netduino.com/netduinoplus2/specs.htm" target="_blank">Netduino</a>,
+					<a href="http://www.netmf.com/" target="_blank">NETMF</a></li>
+				<li><strong>Distributeurs</strong> : <a href="http://www.mouser.fr/Search/Refine.aspx?Keyword=netduino" target="_blank">Mouser Electronics</a></li>
+			</ul>
+			<hr/>
+			<h3>Wiki</h3>
+			<ul>
+				<li><strong>Exemple pour la carte Netduino sur Wikispaces: <a href="https://csharpembarquenetduino.wikispaces.com/" target="_blank">lien</a></strong></li>
+			</ul>
+			<hr>
+			<h3>Contenu du répertoire proposé au téléchargement</h3>
+			<hr/>
+			<p>Le répertoire proposé au téléchargement (au format zip ou tar.gz) contient la solution <strong>NetduinoPCF8574</strong>				composée :
+			</p>
+			<ul>
+				<li>Du projet <strong>PCF8574 </strong>: le <strong>code source</strong> de la classe <em>PCF8574</em>.</li>
+				<li>Du projet <strong>TestNetduinoPCF8574 </strong>: un exemple d'utilisation de cette classe.</li>
+			</ul>
+			<p><em>Remarques : La dernière version <strong>compilée</strong> de la classe <strong>PCF8574</strong> se situe dans la bibliothèque <strong>MicroToolsKit</strong> disponible sur <a href="https://www.nuget.org/" target="_blank">nuget.org</a>.</em></p>
+			<p align="center"><img src="images/NuGet-large.png" /></p>
+			<p><em>Installer cette bibliothèque dans le projet simplifie l'utilisation de cette classe.</em></p>
+			<hr/>
+			<h3>Description et utilisation de la classe PCF8574</h3>
+			<ul>
+				<li><strong>Rôle: </strong>Contrôler huit entrées / sorties numériques.</li>
+				<li><strong>Assembly: </strong> <em>MicroToolsKit</em> (disponible sur <a href="https://www.nuget.org/" target="_blank">nuget.org</a>)</li>
+				<li><strong>Espace de noms: </strong><em>Microtoolskit.Hardware.IO</em></li>
+			</ul>
+			<hr/>
 
-<p><strong>Constructeur</strong></p>
-<table>
-	<tr>
-		<td></td>
-		<td><strong>Syntaxe</strong></td>
-		<td><strong>Description</strong></td>
-	</tr>
-	<tr>
-		<td><img src="images/Method_16x.png"></td>
-		<td><strong>PCF8574</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>Int16</strong> <em>Frequency</em>)</td>
-		<td>Instancie un objet "PCF8574(A)". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x27] pour un PCF8574 et dans l'intervalle [0x38,0x3F] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz]. </td>
-	</tr>
-</table>
+			<p><strong>Création d'un projet avec l'IDE Visual Studio</strong></p>
+			<hr/>
+			<ol>
+				<li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> l'assembly <strong>MicroToolsKit</strong>					(disponible sur <a href="https://www.nuget.org/" target="_blank">nuget.org</a>) dans le répertoire <em>Références</em>					du projet.(clic droit sur <em>Références</em> puis <em>Gérer les packages NuGet...</em>)</li>
+				<li><strong>Ajouter</strong> l'espace de noms <strong>Microtoolskit.Hardware.IO</strong> dans l'en-tête du fichier source.</li>
+				<li><strong>Créer</strong> un objet en utilisant le constructeur <em>PCF8574</em>.</li>
+				<li><strong>Utiliser</strong> la méthode <strong>Write</strong> pour accéder au port en écriture et la méthode <strong>Read</strong>					pour accéder au port en lecture.</li>
+			</ol>
+			<hr/>
 
-<p><strong>Méthodes publiques</strong></p>
-<table>
-	<tr>
-		<td></td>
-		<td><strong>Syntaxe</strong></td>
-		<td><strong>Description</strong></td>
-	</tr>
-	<tr> 
-		<td><img src="images/Method_16x.png"></td>
-		<td><strong>byte Read</strong>()</td>
-		<td>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574(A).</td>
-	</tr>
-	<tr>
-		<td><img src="images/Method_16x.png"></td>
-		<td><strong>void Write</strong>(<strong>byte</strong> <em>value</em>)</td>
-		<td><p><em>value</em>: octet à écrire sur le port du PCF8574(A).</p></td>
-	</tr>
-</table>
-</section>
-</div>
+			<p><strong>Constructeur</strong></p>
+			<table>
+				<tr>
+					<td></td>
+					<td><strong>Syntaxe</strong></td>
+					<td><strong>Description</strong></td>
+				</tr>
+				<tr>
+					<td><img src="images/Method_16x.png"></td>
+					<td><strong>PCF8574</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>Int16</strong> <em>Frequency</em>)</td>
+					<td>Instancie un objet "PCF8574(A)". <br> <em>I2C_Add_7bits</em> est à définir dans l'intervalle [0x20,0x27] pour un PCF8574
+						et dans l'intervalle [0x38,0x3F] pour un PCF8574A. <br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz].
+					</td>
+				</tr>
+			</table>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Contrôler les LED et les boutons-poussoir d'une IHM avec des PCF8574 maintained by <a href="https://github.com/WebGE">WebGE</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-  </body>
+			<p><strong>Méthodes publiques</strong></p>
+			<table>
+				<tr>
+					<td></td>
+					<td><strong>Syntaxe</strong></td>
+					<td><strong>Description</strong></td>
+				</tr>
+				<tr>
+					<td><img src="images/Method_16x.png"></td>
+					<td><strong>byte Read</strong>()</td>
+					<td>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574(A).</td>
+				</tr>
+				<tr>
+					<td><img src="images/Method_16x.png"></td>
+					<td><strong>void Write</strong>(<strong>byte</strong> <em>value</em>)</td>
+					<td>
+						<p><em>value</em>: octet à écrire sur le port du PCF8574(A).</p>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</div>
+
+	<!-- FOOTER  -->
+	<div id="footer_wrap" class="outer">
+		<footer class="inner">
+			<p class="copyright">Contrôler les LED et les boutons-poussoir d'une IHM avec des PCF8574 maintained by <a href="https://github.com/WebGE">WebGE</a></p>
+			<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+		</footer>
+	</div>
+</body>
+
 </html>
