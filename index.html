@@ -39,12 +39,11 @@
 				<p> Le PCF8574 est un circuit intégré permettant de contrôler huit entrées / sorties numériques par l'intermédiaire d'un
 					bus I²C. Il peut être utiliser pour interfacer des Led ou des boutons-poussoir comme dans l'exemple d'interface homme
 					machine présentée ci-dessous.</p>
-					<p align="center"><img src="images/fonctionnel.png"></p>
+				<p align="center"><img src="images/fonctionnel.png"></p>
 				<li><strong>Schéma interne du composant</strong></li>
 				<p align="center"><img src="images/pcf8574.png"></p>
 				<li><strong>Adressage</strong></li>
 				<p align="center"><img src="images/adressage.jpg"></p>
-				
 				<li><strong>Documentation: </strong><a href="http://www.nxp.com/documents/data_sheet/PCF8574.pdf" target="_blank">pdf</a></li>
 				<li><strong>Distributeur: </strong><a href="http://uk.farnell.com/texas-instruments/pcf8574an/ic-i2c-bus-expander-16dip/dp/1703443"
 						target="_blank">Farnell</a></li>
@@ -113,7 +112,8 @@
 			<h3>Description et utilisation de la classe PCF8574</h3>
 			<ul>
 				<li><strong>Rôle: </strong>Contrôler huit entrées / sorties numériques.</li>
-				<li><strong>Assembly: </strong> <em>MicroToolsKit</em> (disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>)</li>
+				<li><strong>Assembly: </strong> <em>MicroToolsKit</em> (disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/"
+						target="_blank">nuget.org</a>)</li>
 				<li><strong>Espace de noms: </strong><em>Microtoolskit.Hardware.IO</em></li>
 			</ul>
 			<hr/>
@@ -121,7 +121,8 @@
 			<p><strong>Création d'un projet avec l'IDE Visual Studio</strong></p>
 			<hr/>
 			<ol>
-				<li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> l'assembly <strong>MicroToolsKit</strong> (disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>) dans le répertoire <em>Références</em>					du projet.(clic droit sur <em>Références</em> puis <em>Gérer les packages NuGet...</em>)</li>
+				<li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> l'assembly <strong>MicroToolsKit</strong>					(disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>) dans le
+					répertoire <em>Références</em> du projet.(clic droit sur <em>Références</em> puis <em>Gérer les packages NuGet...</em>)</li>
 				<li><strong>Ajouter</strong> l'espace de noms <strong>Microtoolskit.Hardware.IO</strong> dans l'en-tête du fichier source.</li>
 				<li><strong>Créer</strong> un objet en utilisant le constructeur <em>PCF8574</em>.</li>
 				<li><strong>Utiliser</strong> la méthode <strong>Write</strong> pour accéder au port en écriture et la méthode <strong>Read</strong>					pour accéder au port en lecture.</li>
