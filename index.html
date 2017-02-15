@@ -32,17 +32,24 @@
 	<div id="main_content_wrap" class="outer">
 		<section id="main_content" class="inner">
 			<hr>
-			<h4>Sommaire</h4>
+			<h4 id="#SOM">Sommaire</h4>
 			<ol>
 				<li>Le matériel
 					<ol>
-						<li><a href="#"> Le circuit intégré PCF8574 : remote 8-bit I/O expander for I 2C-bus</a></li>
-						<li><a href="#SSI">Exemple d'utilisation sur l'Interface Homme Machine SSI</a></li>
+						<li>Le circuit intégré PCF8574 : remote 8-bit I/O expander for I 2C-bus</li>
+						<li><a href="#SSI">Exemple d'utilisation du PCF8574 : l'Interface Homme Machine SSI</a></li>
 						<li><a href="#NDuino">Les cartes Netduino</a></li>
 						<li><a href="#FEZ">Les cartes FEZ</a> </li>
 					</ol>
 				</li>
-				<li>Le logiciel</li>
+				<li>Le logiciel
+					<ol>
+						<li><a href="#REP">Contenu du répertoire proposé au téléchargement</a></li>
+						<li><a href="#NUGET">Le NuGet MicroToolsKit</a></li>
+						<li><a href="#WIKI">Les Wikis</a></li>
+						<li><a href="#DESC">Description et utilisation de la classe PCF8574</a></li>
+					</ol>
+				</li>
 			</ol>
 			<hr>
 			<h3>
@@ -148,12 +155,8 @@
 				<li><strong>Distributeurs</strong> : <a href="http://www.mouser.fr" target="_blank">Mouser Electronics</a></li>
 			</ul>
 			<hr/>
-			<h3>Wiki</h3>
-			<ul>
-				<li><strong>Des exemples de code pour les cartes Netduino et FEZ sont disponibles <br> sur Wikispaces: <a href="https://csharpembarquenetduino.wikispaces.com/" target="_blank">lien</a></strong></li>
-			</ul>
-			<hr>
-			<h3>Contenu du répertoire proposé au téléchargement</h3>
+
+			<h3 id="#REP">Contenu du répertoire proposé au téléchargement</h3>
 			<hr/>
 			<p>Le répertoire proposé au téléchargement (au format zip ou tar.gz) contient la solution <strong>NetduinoPCF8574</strong>				composée :
 			</p>
@@ -161,11 +164,22 @@
 				<li>Du projet <strong>PCF8574 </strong>: le <strong>code source</strong> de la classe <em>PCF8574</em>.</li>
 				<li>Du projet <strong>TestNetduinoPCF8574 </strong>: un exemple d'utilisation de cette classe.</li>
 			</ul>
+			<hr>
+
+			<h3 id=#"NUGET">Le NuGet MicroToolsKit</h3>
 			<p><em>Remarques : La dernière version <strong>compilée</strong> de la classe <strong>PCF8574</strong> se situe dans la bibliothèque <strong>MicroToolsKit</strong> disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>.</em></p>
 			<p align="center"><img src="images/NuGet-large.png" /></p>
 			<p><em>Installer cette bibliothèque dans le projet simplifie l'utilisation de cette classe.</em></p>
 			<hr/>
-			<h3>Description et utilisation de la classe PCF8574</h3>
+
+			<h3 id="#WIKI">Les Wikis</h3>
+			<ul>
+				<li><strong>Fascicules d'exemples de code pour les cartes Netduino. <a href="https://csharpembarquenetduino.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp" target="_blank">lien</a></strong></li>
+				<li><strong>Fascicule d'exemples de code pour les cartes FEZ. <a href="https://csharpembarquefez.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp" target="_blank">lien</a></strong></li>
+			</ul>
+			<hr>
+
+			<h3 id="DESC">Description et utilisation de la classe PCF8574</h3><a href="#SOM">[Sommaire]</a>
 			<ul>
 				<li><strong>Rôle: </strong>Contrôler huit entrées / sorties numériques.</li>
 				<li><strong>Assembly: </strong> <em>MicroToolsKit</em> (disponible sur
