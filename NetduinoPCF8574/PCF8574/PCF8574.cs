@@ -9,11 +9,9 @@ namespace ToolBoxes
     /// </summary>
     public class PCF8574
     {
-        // I2C
-        private I2CDevice.Configuration Config;
-        private I2CDevice BusI2C;
+        I2CDevice.Configuration Config;
+        I2CDevice BusI2C;
 
-        // Constructeur
         /// <summary>
         /// Constructor
         /// </summary>
@@ -23,13 +21,11 @@ namespace ToolBoxes
         {
             Config = new I2CDevice.Configuration(I2C_Add_7bits, FreqBusI2C);
         }
-
-        // Méthodes
-        // ------------------------------------------------------------------------------------------        
+  
         /// <summary>
         /// Write a byte on PCF8574 port I/O
         /// </summary>
-        /// <param name="value"></param>
+        /// <param name="value">Byte to write</param>
         public void Write(Byte value)
         {
             // Création d'un buffer et d'une transaction pour l'accès au circuit en écriture
@@ -45,7 +41,7 @@ namespace ToolBoxes
         /// <summary>
         /// Read the PCF8574 port I/O 
         /// </summary>
-        /// <returns></returns>
+        /// <returns>I/O port state</returns>
         public byte Read()
         {
             // Création d'un buffer et d'une transaction pour l'accès au circuit en lecture
