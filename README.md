@@ -1,7 +1,7 @@
 PCF8574
 =======
 
-Source code of the PCF8574 NETMF class contained in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> library. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
+Source code of the PCF8574 <strong>NETMF class</strong> contained in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
 
 This class is for a PCF8574 circuit : <strong>remote 8-bit I/O expander for I 2C-bus</strong>.
 
@@ -16,7 +16,7 @@ This class is for a PCF8574 circuit : <strong>remote 8-bit I/O expander for I 2C
 
 <strong>Framework</strong> : .NETMF 4.3
 
-
+<hr>
 See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Pages</a> too get started.
 
 Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
