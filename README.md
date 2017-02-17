@@ -10,9 +10,13 @@ This class is for a PCF8574 circuit : <strong>remote 8-bit I/O expander for I 2C
 
 <strong>Target</strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 
-<strong>IDE</strong> : Visual Studio
+<strong>IDE</strong> : Visual Studio community.
+
+<strong>Language</strong> : C#.
+
+<strong>Framework</strong> : .NETMF 4.3
 
 
-See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 Github page</a> too get started
+See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Pages</a> too get started.
 
 Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
