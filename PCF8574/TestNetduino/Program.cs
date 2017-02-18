@@ -34,10 +34,21 @@ namespace TestNetduino
                     stateLED = 0xFF;
                 }
 
-                //Ecriture sur les Leds
-                Leds.Write(stateLED);
-                Debug.Print(stateLED.ToString());
-                Thread.Sleep(500); // Pour la simulation
+                try
+                {
+                    Leds.Write(stateLED);
+                    Debug.Print(stateLED.ToString());
+                }
+                catch (System.IO.IOException ex)
+                {
+
+                    Debug.Print(ex.Message);
+                }
+                finally
+                {
+                    Thread.Sleep(500);
+                }
+                
             }
 
         }
