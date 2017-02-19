@@ -12,7 +12,7 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 
 <strong>Hardware</strong>
 ---------------------
-<strong> Targets</strong>Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
+<strong> Targets </strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 
 <strong>Software</strong>
 ---------------------
@@ -21,13 +21,13 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 <li><strong>Framework used</strong> : .NETMF 4.3</li>
 <li><strong>IDE</strong> : Visual Studio Community 2015</li>
 <li><strong>xml</strong> : documentation inside class </li> 
-<li><strong>Exception</strong></li> : if transaction failed
+<li><strong>Exception</strong> : if transaction failed</li>
 </ul>
 
 <strong> Visual studio solution</strong>
 -------------------------------------
 <ul>
-<li>PCF8574
+<li><strong>PCF8574</strong>
 <ul>
 <li><strong>PCF8574</strong> : .NetMF class</li>
 <img src="img/pcf8574.png" />
@@ -44,6 +44,7 @@ I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 <strong>TODO</strong>
 -------------------
 Interrupt management
+
 <strong>To get started<strong>
 --------------------
 See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Pages</a>.
