@@ -9,6 +9,7 @@ This class is in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit
  <img src="img/nuget.JPG" align="center" />
 
 <strong>Content of the visual studio solution</strong>
+-------------------------------------
 <ul>
 <li>PCF8574 : .NetMF class</li>
 <img src="img/pcf8574.png" />
