@@ -8,8 +8,8 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 
  <img src="img/nuget.JPG" align="center" />
 
--------------------------------------
-* Content of the visual studio solution
+
+<strong> Content of the visual studio solution</strong>
 -------------------------------------
 <ul>
 <li>PCF8574 : .NetMF class</li>
