@@ -24,7 +24,7 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 <li><strong>Exception</strong> : if transaction failed</li>
 </ul>
 
-<strong> Visual studio solution</strong>
+<strong> Visual Studio solution</strong>
 -------------------------------------
 <ul>
 <li><strong>PCF8574</strong>
