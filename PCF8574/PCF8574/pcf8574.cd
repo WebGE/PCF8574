@@ -9,7 +9,7 @@
       <Field Name="TRANSACTIONTIMEOUT" Hidden="true" />
     </Members>
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAEAgAAAAAAAAgAAAAAAAAAAAAIQEAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAIAIQEAAAA=</HashCode>
       <FileName>pcf8574.cs</FileName>
     </TypeIdentifier>
   </Class>

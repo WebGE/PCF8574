@@ -25,6 +25,7 @@ namespace MicroToolsKit
 
                 /// <summary>
                 /// Transaction time out = 1s before throwing System.IO.IOException 
+                /// 
                 /// </summary>
                 const UInt16 TRANSACTIONTIMEOUT = 1000;
 
