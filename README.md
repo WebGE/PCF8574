@@ -40,6 +40,4 @@ I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 --------------------
 See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Pages</a>.
 
-<strong>Maintened by<strong>
------------------------
-<a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
+<strong>Maintened by<strong> <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
