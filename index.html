@@ -209,8 +209,10 @@
 				<tr>
 					<td><img src="images/Method_16x.png"></td>
 					<td><strong>PCF8574</strong>(<strong>UInt16</strong> <em>SLA</em>, <strong>Int16</strong> <em>Frequency</em>)</td>
-					<td>Instancie un objet "PCF8574(A)". <br> <em>SLA,</em> l'adresse, sur 7 bits est à définir dans l'intervalle [0x20,0x27] pour un PCF8574
-						et dans l'intervalle [0x38,0x3F] pour un PCF8574A. (<strong>0x38</strong> par défaut)<br><em>Frequency</em> est à définir dans l'intervalle [100kHz,400kHz].
+					<td>Instancie un objet "PCF8574(A)". <br> 
+					<strong>SLA,</strong> l'adresse, sur 7 bits est à définir dans l'intervalle [0x20,0x27] pour un PCF8574
+						et dans l'intervalle [0x38,0x3F] pour un PCF8574A. (<strong>0x38</strong> par défaut)<br>
+						<strong>Frequency</strong> est à définir dans l'intervalle [100kHz,400kHz].
 						(<strong>100kHz</strong> par défaut)
 					</td>
 				</tr>
@@ -227,7 +229,7 @@
 					<td><img src="images/Method_16x.png"></td>
 					<td><strong>byte Read</strong>()</td>
 					<td>
-						<p>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574(A).</p><br>
+						<p>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574(A).</p>
 						<p> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la communication</p>
 					</td>
 				</tr>
@@ -235,7 +237,7 @@
 					<td><img src="images/Method_16x.png"></td>
 					<td><strong>void Write</strong>(<strong>byte</strong> <em>value</em>)</td>
 					<td>
-						<p><em>value</em>: octet à écrire sur le port du PCF8574(A).</p><br>
+						<p><em>value</em>: octet à écrire sur le port du PCF8574(A).</p>
 						<p>Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la communication</p>
 					</td>
 				</tr>
