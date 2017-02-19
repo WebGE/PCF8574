@@ -19,7 +19,6 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 </ul>
 
 <hr>
-<strong>Keywords</strong>: I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
 <strong>Targeted hardware</strong>
 ---------------------
@@ -30,6 +29,10 @@ Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 <strong>IDE</strong> : Visual Studio Community - 
 <strong>Language</strong> : C# - 
 <strong>Framework</strong> : .NETMF 4.3
+
+<strong>Keywords</strong>
+----------------------------
+I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
 <hr>
 See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Pages</a> too get started.
