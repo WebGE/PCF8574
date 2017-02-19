@@ -6,7 +6,7 @@ Source code of the PCF8574 <strong>NETMF class</strong> write for a PCF8574 circ
 
 This class is in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
 
-[Contribution guidelines for this project](img/nuget.JPG)
+ <img src="img/nuget.JPG" align="center" />
 
 <strong>Content of the visual studio solution</strong>
 <ul>
