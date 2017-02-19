@@ -19,9 +19,9 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 </ul>
 
 
-<strong>Targeted hardware</strong>
+<strong>Hardware</strong>
 ---------------------
-Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
+<strong> Targets</strong>Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 
 <strong>Software</strong>
 ---------------------
