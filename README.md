@@ -38,6 +38,10 @@ Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
 <hr>
-See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Pages</a> too get started.
+<strong>Too get started<strong>
+--------------------
+See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Pages</a>.
 
-Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
+<strong>Maintened by<strong>
+-----------------------
+<a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
