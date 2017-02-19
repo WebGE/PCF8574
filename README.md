@@ -6,6 +6,7 @@ Source code of the PCF8574 <strong>NETMF class</strong> contained in the <a href
 <img align="center" src="img/nuget.JPG" />
 
 <strong>Description</strong>
+
 This class is for a PCF8574 circuit : <strong>remote 8-bit I/O expander for I 2C-bus</strong>.
 
 <strong>Content of the visual studio solution</strong>
