@@ -10,21 +10,6 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 
  <img src="img/nuget.JPG" align="center" />
 
-
-<strong> Visual studio solution</strong>
--------------------------------------
-<ul>
-<li>PCF8574
-<ul>
-<li><strong>PCF8574</strong> : .NetMF class</li>
-<img src="img/pcf8574.png" />
-<li><strong>Netduino</strong> : class test program (chenillard) for Netduino board</li>
-<li><strong>FezPanda</strong> : class test program (chenillard) for Fez Panda board</li>
-</ul>
-</li>
-</ul>
-
-
 <strong>Hardware</strong>
 ---------------------
 <strong> Targets</strong>Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
@@ -37,6 +22,19 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 <li><strong>IDE</strong> : Visual Studio Community 2015</li>
 <li><strong>xml</strong> : documentation inside class </li> 
 <li><strong>Exception</strong></li> : if transaction failed
+</ul>
+
+<strong> Visual studio solution</strong>
+-------------------------------------
+<ul>
+<li>PCF8574
+<ul>
+<li><strong>PCF8574</strong> : .NetMF class</li>
+<img src="img/pcf8574.png" />
+<li><strong>Netduino</strong> : class test program (chenillard) for Netduino board</li>
+<li><strong>FezPanda</strong> : class test program (chenillard) for Fez Panda board</li>
+</ul>
+</li>
 </ul>
 
 <strong>Keywords</strong>
