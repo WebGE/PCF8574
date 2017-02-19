@@ -5,6 +5,12 @@ Source code of the PCF8574 <strong>NETMF class</strong> contained in the <a href
 
 This class is for a PCF8574 circuit : <strong>remote 8-bit I/O expander for I 2C-bus</strong>.
 
+<strong>Content</strong>
+<ul>
+<li>PCF8574 : class</li>
+<li>Netduino : test program (chenillard) for Netduino board</li>
+<li>FezPanda : test program (chenillard) for Fez Panda board</li>
+</ul>
 
 <strong>Tags</strong>: I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
