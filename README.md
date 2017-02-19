@@ -7,7 +7,7 @@ This class is for a PCF8574 circuit : <strong>remote 8-bit I/O expander for I 2C
 
 <strong>Content</strong>
 <ul>
-<li>PCF8574 : class</li>
+<li>PCF8574 : .NetMF class</li>
 <li>Netduino : test program (chenillard) for Netduino board</li>
 <li>FezPanda : test program (chenillard) for Fez Panda board</li>
 </ul>
