@@ -21,8 +21,8 @@ This class is in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit
 
 <strong>Target</strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 
-<strong>IDE</strong> : Visual Studio Community.
-<strong>Language</strong> : C#.
+<strong>IDE</strong> : Visual Studio Community - 
+<strong>Language</strong> : C# - 
 <strong>Framework</strong> : .NETMF 4.3
 
 <hr>
