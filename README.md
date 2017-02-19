@@ -11,13 +11,17 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
  <img src="img/nuget.JPG" align="center" />
 
 
-<strong> Content of the visual studio solution</strong>
+<strong> Visual studio solution</strong>
 -------------------------------------
+<ul>
+<li>PCF8574
 <ul>
 <li><strong>PCF8574</strong> : .NetMF class</li>
 <img src="img/pcf8574.png" />
 <li><strong>Netduino</strong> : class test program (chenillard) for Netduino board</li>
 <li><strong>FezPanda</strong> : class test program (chenillard) for Fez Panda board</li>
+</ul>
+</li>
 </ul>
 
 
