@@ -2,7 +2,7 @@
 
 <strong>Description</strong>
 -------------------------------------
-Source code of the PCF8574.
+Source code of the PCF8574 class.
 
 A <strong>.NETMF 4.3 class</strong> write for a PCF8574 circuit : <strong>remote 8-bit I/O expander for I 2C-bus</strong>. 
 
