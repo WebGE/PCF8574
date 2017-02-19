@@ -30,6 +30,7 @@ Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 <li><strong>Framework used</strong> : .NETMF 4.3</li>
 <li><strong>IDE</strong> : Visual Studio Community 2015</li>
 <li><strong>xml</strong> : documentation inside class </li> 
+<li><strong>Exception</strong></li> : if transaction failed
 </ul>
 
 <strong>Keywords</strong>
