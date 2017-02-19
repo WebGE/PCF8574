@@ -25,12 +25,12 @@ Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 
 <strong>Software</strong>
 ---------------------
-<strong>Language</strong> : C#
-
-<strong>Framework</strong> : .NETMF 4.3
-
-<strong>IDE</strong> : Visual Studio Community 2015
-
+<ul>
+<li><strong>Language</strong> : C#</li>
+<li><strong>Framework</strong> : .NETMF 4.3</li>
+<li><strong>IDE</strong> : Visual Studio Community 2015</li>
+<li><strong>xml</strong></li> : documentation
+</ul>
 
 <strong>Keywords</strong>
 ----------------------------
