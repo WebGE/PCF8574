@@ -2,7 +2,7 @@ using System;
 using Microsoft.SPOT;
 using Microsoft.SPOT.Hardware;
 
-namespace MicroToolsKit
+namespace testMicroToolsKit
 {
     namespace Hardware
     {

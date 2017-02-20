@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.SPOT.Hardware" />
+    <Reference Include="Microsoft.SPOT.Hardware.SerialPort" />
     <Reference Include="Microsoft.SPOT.Native" />
     <Reference Include="SecretLabs.NETMF.Hardware" />
     <Reference Include="SecretLabs.NETMF.Hardware.Netduino" />
@@ -52,5 +53,4 @@
     <Content Include="Doc_A_Consulter\Chenillard.jpg" />
     <Content Include="Lisez-moi.txt" />
   </ItemGroup>
-  <ItemGroup />
 </Project>
