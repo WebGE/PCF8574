@@ -1,7 +1,7 @@
 using System.Threading;
 using Microsoft.SPOT;
 
-using MicroToolsKit.Hardware.IO;
+using testMicroToolsKit.Hardware.IO;
 
 namespace TestFezPanda
 {
