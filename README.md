@@ -39,7 +39,7 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 
 <strong>Demonstation</strong>
 -------------------
-https://youtu.be/iZw7FdrfGV8
+<a href="https://youtu.be/iZw7FdrfGV8" target = "_blank">Video on Youtube</a>
 
 <strong>Keywords</strong>
 ----------------------------
