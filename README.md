@@ -37,6 +37,10 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 </li>
 </ul>
 
+<strong>Assembly</strong>
+-----------------------_
+<img src="img/I2CFezPanda.JPG">
+
 <strong>Video</strong>
 -------------------
 <a href="https://youtu.be/iZw7FdrfGV8" target="_blank">Demo on Youtube</a>
