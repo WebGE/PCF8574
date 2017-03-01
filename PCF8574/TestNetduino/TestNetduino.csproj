@@ -39,6 +39,10 @@
     <Reference Include="Microsoft.SPOT.Hardware" />
     <Reference Include="Microsoft.SPOT.Hardware.SerialPort" />
     <Reference Include="Microsoft.SPOT.Native" />
+    <Reference Include="MicroToolsKit, Version=1.4.3.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGE.MicroToolsKit.1.4.3\lib\netmf43\MicroToolsKit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="SecretLabs.NETMF.Hardware" />
     <Reference Include="SecretLabs.NETMF.Hardware.Netduino" />
     <Reference Include="System" />
@@ -52,5 +56,8 @@
   <ItemGroup>
     <Content Include="Doc_A_Consulter\Chenillard.jpg" />
     <Content Include="Lisez-moi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
