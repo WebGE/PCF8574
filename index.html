@@ -203,7 +203,23 @@
 			</ol>
 			<hr>
 			<strong>Exemple</strong><br>
-			<script src="https://gist.github.com/WebGE/2aff2f74dcde12ea1ae593127d0751a9.js"></script>
+			<pre>
+			public static void Main()
+ {
+    byte state = 0xFE;
+    PCF8574 Leds = new PCF8574(); // SLA = 0x38, Frequency = 100kHz
+    Leds.Write(state);
+    Thread.Sleep(500);
+
+    while (true) 
+    { 
+    if (state != 0) 
+      state = (byte)(state << 1); 
+    else 
+      state = 0xFF; 
+    } 
+ } 
+			</pre>
 			<hr>
 			<p><strong>Constructeur</strong></p>
 			<table>
