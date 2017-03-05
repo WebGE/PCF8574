@@ -205,12 +205,12 @@
 			<p><strong>Exemple</strong></p>
 			<em>
 			public static void Main() <br>
-    		{
-				byte state = 0xFE;
-				PCF8574 Leds = new PCF8574(); // SLA = 0x38, Frequency = 100kHz
-				Leds.Write(state);
-           	 	Thread.Sleep(500);
-
+    		{<br>
+				byte state = 0xFE;<br>
+				PCF8574 Leds = new PCF8574(); // SLA = 0x38, Frequency = 100kHz<br>
+				Leds.Write(state);<br>
+           	 	Thread.Sleep(500);<br>
+				<br>
 				 while (true) <br>
             	{ <br>
 					if (state != 0) <br>
