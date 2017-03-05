@@ -18,8 +18,9 @@
 			<a id="forkme_banner" href="https://github.com/WebGE/PCF8574">View on GitHub</a>
 
 			<h1 id="project_title">Port d'E/S 8 bits PCF8574 (I²C)</h1>
-			<h2 id="project_tagline">Description de la classe <strong><em>PCF8574</em></strong> développée en C# sous .NETMF 4.3 pour les cartes Netduino et FEZ (PANDA, COBRA...)</h2>
-				
+			<h2 id="project_tagline">Description de la classe <strong><em>PCF8574</em></strong> développée en C# sous .NETMF 4.3 pour les cartes Netduino et
+				FEZ (PANDA, COBRA...)</h2>
+
 
 			<section id="downloads">
 				<a class="zip_download_link" href="https://github.com/WebGE/PCF8574/zipball/master">Download this project as a .zip file</a>
@@ -32,7 +33,7 @@
 	<div id="main_content_wrap" class="outer">
 		<section id="main_content" class="inner">
 			<hr>
-			<h4>Sommaire</h4>			
+			<h4>Sommaire</h4>
 			<ol>
 				<li>LE MATERIEL
 					<ol>
@@ -101,8 +102,7 @@
 			<table>
 				<tr>
 					<td><img src="images/netduino3ethernet.png" alt="Netduino plus 2" target="_blank" /></td>
-					<td><img src="images/inputandoutput.png" alt="Netduino 3 wifi" target="_blank"
-						/></td>
+					<td><img src="images/inputandoutput.png" alt="Netduino 3 wifi" target="_blank" /></td>
 				</tr>
 				<tr>
 					<td align="center"><strong>Netduino 3 Ethernet</strong></td>
@@ -156,7 +156,8 @@
 
 			<h4 id="REP">2.1 Contenu du répertoire proposé au téléchargement</h4>
 			<hr>
-			<p>Le répertoire proposé au téléchargement (au format zip ou tar.gz) contient la solution <strong>PCF8574</strong>				composée :
+			<p>Le répertoire proposé au téléchargement (au format zip ou tar.gz) contient la solution <strong>PCF8574</strong> composée
+				:
 			</p>
 			<ul>
 				<li>Du projet <strong>PCF8574 </strong>: le <strong>code source</strong> de la classe <em>PCF8574</em>.</li>
@@ -166,16 +167,19 @@
 			<hr>
 
 			<h4 id="NUGET">2.2 Le NuGet MicroToolsKit</h4>
-			<p>La dernière version <strong>compilée</strong> de la classe <strong>PCF8574</strong> se situe dans la bibliothèque <strong>MicroToolsKit</strong> disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>.</p>
+			<p>La dernière version <strong>compilée</strong> de la classe <strong>PCF8574</strong> se situe dans la bibliothèque <strong>MicroToolsKit</strong>				disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>.</p>
 			<p align="center"><img src="images/NuGet-large.png" /></p>
-			<p><strong>Organisation des classes</strong>  contenues dans MicroToolsKit <a href="https://csharpembarquenetduino.wikispaces.com/6.+La+biblioth%C3%A8que+MicroToolsKit" target="_blank">[lien]</a></p>
+			<p><strong>Organisation des classes</strong> contenues dans MicroToolsKit <a href="https://csharpembarquenetduino.wikispaces.com/6.+La+biblioth%C3%A8que+MicroToolsKit"
+				 target="_blank">[lien]</a></p>
 			<p><em>Installer cette bibliothèque dans le projet simplifie l'utilisation de la classe.</em></p>
 			<hr>
 
 			<h4 id="WIKI">2.3 Les Wikis</h4>
 			<ul>
-				<li><strong>Fascicules</strong> d'exemples de code pour les cartes <strong>Netduino</strong>. <a href="https://csharpembarquenetduino.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp" target="_blank">[lien]</a></li>
-				<li><strong>Fascicule</strong> d'exemples de code pour les cartes <strong>FEZ</strong>. <a href="https://csharpembarquefez.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp" target="_blank">[lien]</a></li>
+				<li><strong>Fascicules</strong> d'exemples de code pour les cartes <strong>Netduino</strong>. <a href="https://csharpembarquenetduino.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp"
+					 target="_blank">[lien]</a></li>
+				<li><strong>Fascicule</strong> d'exemples de code pour les cartes <strong>FEZ</strong>. <a href="https://csharpembarquefez.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp"
+					 target="_blank">[lien]</a></li>
 			</ul>
 			<hr>
 
@@ -197,8 +201,26 @@
 				<li><strong>Créer</strong> un objet en utilisant le constructeur <em>PCF8574</em>.</li>
 				<li><strong>Utiliser</strong> la méthode <strong>Write</strong> pour accéder au port en écriture et la méthode <strong>Read</strong>					pour accéder au port en lecture.</li>
 			</ol>
-			<hr/>
+			<hr>
+			<p><strong>Exemple</strong></p>
+			<em>
+			public static void Main() <br>
+    		{
+				byte state = 0xFE;
+				PCF8574 Leds = new PCF8574(); // SLA = 0x38, Frequency = 100kHz
+				Leds.Write(state);
+           	 	Thread.Sleep(500);
 
+				 while (true) <br>
+            	{ <br>
+					if (state != 0) <br>
+						state = (byte)(state << 1); <br>
+					else <br>
+						state = 0xFF; <br>
+				} <br>
+			} <br>
+			</em>
+			<hr>
 			<p><strong>Constructeur</strong></p>
 			<table>
 				<tr>
@@ -209,11 +231,11 @@
 				<tr>
 					<td><img src="images/Method_16x.png"></td>
 					<td><strong>PCF8574</strong>(<strong>UInt16</strong> <em>SLA</em>, <strong>Int16</strong> <em>Frequency</em>)</td>
-					<td>Instancie un objet "PCF8574(A)". <br> 
-					<strong>SLA</strong> : l'adresse sur 7 bits, est à définir dans l'intervalle [0x20,0x27] pour un PCF8574
-						et dans l'intervalle [0x38,0x3F] pour un PCF8574A. (<strong>0x38</strong> par défaut)<br>
-						<strong>Frequency</strong> est à définir dans l'intervalle [100kHz,400kHz].
-						(<strong>100kHz</strong> par défaut)
+					<td>Instancie un objet "PCF8574(A)". <br>
+						<strong>SLA</strong> : l'adresse sur 7 bits, est à définir dans l'intervalle [0x20,0x27] pour un PCF8574 et dans l'intervalle
+						[0x38,0x3F] pour un PCF8574A. (<strong>0x38</strong> par défaut)<br>
+						<strong>Frequency</strong> est à définir dans l'intervalle [100kHz,400kHz]. (
+						<strong>100kHz</strong> par défaut)
 					</td>
 				</tr>
 			</table>
@@ -230,7 +252,8 @@
 					<td><strong>byte Read</strong>()</td>
 					<td>
 						<p>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574(A).</p>
-						<p> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la communication</p>
+						<p> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
+							communication</p>
 					</td>
 				</tr>
 				<tr>
@@ -238,7 +261,8 @@
 					<td><strong>void Write</strong>(<strong>byte</strong> <em>value</em>)</td>
 					<td>
 						<p><em>value</em>: octet à écrire sur le port du PCF8574(A).</p>
-						<p>Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la communication</p>
+						<p>Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
+							communication</p>
 					</td>
 				</tr>
 			</table>
