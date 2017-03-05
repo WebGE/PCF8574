@@ -235,7 +235,10 @@
 						<strong>SLA</strong> : l'adresse sur 7 bits, est à définir dans l'intervalle [0x20,0x27] pour un PCF8574 et dans l'intervalle
 						[0x38,0x3F] pour un PCF8574A. (<strong>0x38</strong> par défaut)<br>
 						<strong>Frequency</strong> est à définir dans l'intervalle [100kHz,400kHz]. (
-						<strong>100kHz</strong> par défaut)
+						<strong>100kHz</strong> par défaut) 
+						<br> <br>
+						<strong>Exemple</strong><br>
+						<em>PCF8574 Leds = new PCF8574();</em>
 					</td>
 				</tr>
 			</table>
@@ -254,6 +257,9 @@
 						<p>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574(A).</p>
 						<p> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
 							communication</p>
+							<br> <br>
+						<strong>Exemple</strong><br>
+						<em>state = Leds.Read();</em>
 					</td>
 				</tr>
 				<tr>
@@ -263,6 +269,9 @@
 						<p><em>value</em>: octet à écrire sur le port du PCF8574(A).</p>
 						<p>Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
 							communication</p>
+							<br> <br>
+						<strong>Exemple</strong><br>
+						<em>Leds.Write(state);</em>
 					</td>
 				</tr>
 			</table>
