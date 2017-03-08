@@ -195,7 +195,7 @@
 			<p><strong>Création d'un projet avec l'IDE Visual Studio</strong></p>
 			<hr/>
 			<ol>
-				<li><strong>Créer </strong>un nouveau projet en suivant la démarche décrite dans le chapitre <em>"Premier programme en C# étape par étape"</em> du Wiki dédié à une carte <strong>Netduino</strong> ou du Wiki dédié à une carte <strong>Fez</strong> en
+				<li><strong>Créer </strong>un nouveau projet nommé "test" en suivant la démarche décrite dans le chapitre <em>"Premier programme en C# étape par étape"</em> du Wiki dédié à une carte <strong>Netduino</strong> ou du Wiki dédié à une carte <strong>Fez</strong> en
 					accessibles
 					<a href="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library" target="_blank">ici</a></li>
 				<li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> l'assembly <strong>MicroToolsKit</strong>					(disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>) dans le
@@ -205,31 +205,33 @@
 				<li><strong>Utiliser</strong> la méthode <strong>Write</strong> pour accéder au port en écriture et la méthode <strong>Read</strong>					pour accéder au port en lecture.</li>
 			</ol>
 			<hr>
-			<strong>Exemple</strong><br>
+			<strong>Exemple</strong> pour une carte Netduino<br>
 			<pre>
 using System.Threading;
-using MicroToolsKit.Hardware.IO;
+using Microtoolskit.Hardware.IO;
 
-namespace FezPanda
+namespace test
 {
     public class Program
-    {				
-		public static void Main()
-		{
-			byte state = 0xFE;
-			PCF8574 Leds = new PCF8574(); // SLA = 0x38, Frequency = 100kHz
-			Leds.Write(state);
-			
-			while (true) 
-			{ 
-				if (state != 0) 
-					state = (byte)(state << 1); 
-				else 
-					state = 0xFF; 
-				Thread.Sleep(500);
-			} 
-		} 
-	}
+    {
+        public static void Main()
+        {
+            byte state = 0xFE;
+            PCF8574 Leds = new PCF8574(); // SLA = 0x38, Frequency = 100kHz
+            Leds.Write(state);
+
+            while (true)
+            {
+                if (state != 0)
+                    state = (byte)(state << 1);
+                else
+                    state = 0xFF;
+                Leds.Write(state);
+                Thread.Sleep(500);
+            }
+        }
+
+    }
 }
 			</pre>
 			<hr>
