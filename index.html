@@ -195,6 +195,9 @@
 			<p><strong>Création d'un projet avec l'IDE Visual Studio</strong></p>
 			<hr/>
 			<ol>
+				<li><strong>Créer </strong>un nouveau projet pour une carte Netuino ou une carte Fez en suivant la démarche décrite dans
+					le Wiki accessible 
+					<a href="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library">ici</a></li>
 				<li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> l'assembly <strong>MicroToolsKit</strong>					(disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>) dans le
 					répertoire <em>Références</em> du projet.(clic droit sur <em>Références</em> puis <em>Gérer les packages NuGet...</em>)</li>
 				<li><strong>Ajouter</strong> l'espace de noms <strong>Microtoolskit.Hardware.IO</strong> dans l'en-tête du fichier source.</li>
@@ -205,7 +208,7 @@
 			<strong>Exemple</strong><br>
 			<pre>
 using System.Threading;
-using testMicroToolsKit.Hardware.IO;
+using MicroToolsKit.Hardware.IO;
 
 namespace FezPanda
 {
