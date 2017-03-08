@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <AssemblyName>TestNetduino</AssemblyName>
+    <AssemblyName>Netduino</AssemblyName>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TestNetduino</RootNamespace>
+    <RootNamespace>Netduino</RootNamespace>
     <ProjectTypeGuids>{b69e3092-b931-443c-abe7-7e7b65f2a37f};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C702D32F-27B9-4028-8DD6-A9C1EE051B45}</ProjectGuid>
+    <ProjectGuid>{34D8454A-6A7A-418D-8675-9A274370FB7E}</ProjectGuid>
     <TargetFrameworkVersion>v4.3</TargetFrameworkVersion>
     <NetMfTargetsBaseDir Condition="'$(NetMfTargetsBaseDir)'==''">$(MSBuildExtensionsPath32)\Microsoft\.NET Micro Framework\</NetMfTargetsBaseDir>
     <DeployDevice>Netduino</DeployDevice>
@@ -48,14 +48,13 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Documentation\Chenillard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\PCF8574\PCF8574.csproj">
       <Project>{96683A70-F706-4A0E-A8B1-9BFBBA775A3E}</Project>
       <Name>PCF8574</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Doc_A_Consulter\Chenillard.jpg" />
-    <Content Include="Lisez-moi.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

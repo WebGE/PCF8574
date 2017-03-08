@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
-    <AssemblyName>TestPanda</AssemblyName>
+    <AssemblyName>FezPanda</AssemblyName>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TestPanda</RootNamespace>
+    <RootNamespace>FezPanda</RootNamespace>
     <ProjectTypeGuids>{b69e3092-b931-443c-abe7-7e7b65f2a37f};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{157F4B40-15E6-4B8D-9D8B-64BFB652CE61}</ProjectGuid>
+    <ProjectGuid>{A2BFABC7-E118-42CD-8AC5-065B26250989}</ProjectGuid>
     <TargetFrameworkVersion>v4.3</TargetFrameworkVersion>
     <NetMfTargetsBaseDir Condition="'$(NetMfTargetsBaseDir)'==''">$(MSBuildExtensionsPath32)\Microsoft\.NET Micro Framework\</NetMfTargetsBaseDir>
     <SccProjectName>SAK</SccProjectName>

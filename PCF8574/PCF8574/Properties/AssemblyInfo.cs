@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("PCF8574")]
 [assembly: AssemblyDescription("PCF8574 - Remote 8-bit I/O expander for I2C-bus with interrupt class")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("WEVGE")]
+[assembly: AssemblyCompany("WEBGE")]
 [assembly: AssemblyProduct("PCF8574")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]

@@ -1,5 +1,4 @@
 using System;
-using Microsoft.SPOT;
 using Microsoft.SPOT.Hardware;
 
 namespace testMicroToolsKit
@@ -25,9 +24,8 @@ namespace testMicroToolsKit
 
                 /// <summary>
                 /// Transaction time out = 1s before throwing System.IO.IOException 
-                /// 
                 /// </summary>
-                const UInt16 TRANSACTIONTIMEOUT = 1000;
+                const UInt16 TRANSACTION_TIME_OUT = 1000;
 
                 /// <summary>
                 /// 7-bit Slave Adress
@@ -58,7 +56,7 @@ namespace testMicroToolsKit
 
                     I2CDevice.I2CTransaction[] XAction = new I2CDevice.I2CTransaction[] { I2CDevice.CreateWriteTransaction(outbuffer) };
                     i2cBus = new I2CDevice(config);
-                    int transferred = i2cBus.Execute(XAction, TRANSACTIONTIMEOUT);
+                    int transferred = i2cBus.Execute(XAction, TRANSACTION_TIME_OUT);
                     i2cBus.Dispose();
                     if (transferred < (outbuffer.Length))
                         throw new System.IO.IOException("I2CBus error:" + sla.ToString());

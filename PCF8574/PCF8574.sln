@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCF8574", "PCF8574\PCF8574.csproj", "{96683A70-F706-4A0E-A8B1-9BFBBA775A3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNetduino", "TestNetduino\TestNetduino.csproj", "{C702D32F-27B9-4028-8DD6-A9C1EE051B45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netduino", "Netduino\Netduino.csproj", "{34D8454A-6A7A-418D-8675-9A274370FB7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFezPanda", "TestFezPanda\TestFezPanda.csproj", "{157F4B40-15E6-4B8D-9D8B-64BFB652CE61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FezPanda", "FezPanda\FezPanda.csproj", "{A2BFABC7-E118-42CD-8AC5-065B26250989}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,18 +19,18 @@ Global
 		{96683A70-F706-4A0E-A8B1-9BFBBA775A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96683A70-F706-4A0E-A8B1-9BFBBA775A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96683A70-F706-4A0E-A8B1-9BFBBA775A3E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C702D32F-27B9-4028-8DD6-A9C1EE051B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C702D32F-27B9-4028-8DD6-A9C1EE051B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C702D32F-27B9-4028-8DD6-A9C1EE051B45}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{C702D32F-27B9-4028-8DD6-A9C1EE051B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C702D32F-27B9-4028-8DD6-A9C1EE051B45}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C702D32F-27B9-4028-8DD6-A9C1EE051B45}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{157F4B40-15E6-4B8D-9D8B-64BFB652CE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{157F4B40-15E6-4B8D-9D8B-64BFB652CE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{157F4B40-15E6-4B8D-9D8B-64BFB652CE61}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{157F4B40-15E6-4B8D-9D8B-64BFB652CE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{157F4B40-15E6-4B8D-9D8B-64BFB652CE61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{157F4B40-15E6-4B8D-9D8B-64BFB652CE61}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{34D8454A-6A7A-418D-8675-9A274370FB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D8454A-6A7A-418D-8675-9A274370FB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D8454A-6A7A-418D-8675-9A274370FB7E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{34D8454A-6A7A-418D-8675-9A274370FB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D8454A-6A7A-418D-8675-9A274370FB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D8454A-6A7A-418D-8675-9A274370FB7E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A2BFABC7-E118-42CD-8AC5-065B26250989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BFABC7-E118-42CD-8AC5-065B26250989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BFABC7-E118-42CD-8AC5-065B26250989}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2BFABC7-E118-42CD-8AC5-065B26250989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BFABC7-E118-42CD-8AC5-065B26250989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BFABC7-E118-42CD-8AC5-065B26250989}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

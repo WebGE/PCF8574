@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TestPanda
+namespace FezPanda
 {
 
     internal partial class Resources
@@ -20,7 +20,7 @@ namespace TestPanda
             {
                 if ((Resources.manager == null))
                 {
-                    Resources.manager = new System.Resources.ResourceManager("TestPanda.Resources", typeof(Resources).Assembly);
+                    Resources.manager = new System.Resources.ResourceManager("FezPanda.Resources", typeof(Resources).Assembly);
                 }
                 return Resources.manager;
             }
