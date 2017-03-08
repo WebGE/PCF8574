@@ -161,8 +161,8 @@
 			</p>
 			<ul>
 				<li>Du projet <strong>PCF8574 </strong>: le <strong>code source</strong> de la classe <em>PCF8574</em>.</li>
-				<li>Du projet <strong>TestNetduino </strong>: un exemple d'utilisation de cette classe avec une carte Netduino.</li>
-				<li>Du projet <strong>TestFezPanda </strong>: un exemple d'utilisation de cette classe avec une carte Fez Panda.</li>
+				<li>Du projet <strong>Netduino </strong>: un exemple d'utilisation de cette classe avec une carte Netduino.</li>
+				<li>Du projet <strong>FezPanda </strong>: un exemple d'utilisation de cette classe avec une carte Fez Panda.</li>
 			</ul>
 			<hr>
 
@@ -204,21 +204,30 @@
 			<hr>
 			<strong>Exemple</strong><br>
 			<pre>
-public static void Main()
- {
-    byte state = 0xFE;
-    PCF8574 Leds = new PCF8574(); // SLA = 0x38, Frequency = 100kHz
-    Leds.Write(state);
-    Thread.Sleep(500);
+using System.Threading;
+using testMicroToolsKit.Hardware.IO;
 
-    while (true) 
-    { 
-    if (state != 0) 
-      state = (byte)(state << 1); 
-    else 
-      state = 0xFF; 
-    } 
- } 
+namespace FezPanda
+{
+    public class Program
+    {				
+		public static void Main()
+		{
+			byte state = 0xFE;
+			PCF8574 Leds = new PCF8574(); // SLA = 0x38, Frequency = 100kHz
+			Leds.Write(state);
+			
+			while (true) 
+			{ 
+				if (state != 0) 
+					state = (byte)(state << 1); 
+				else 
+					state = 0xFF; 
+				Thread.Sleep(500);
+			} 
+		} 
+	}
+}
 			</pre>
 			<hr>
 			<p><strong>Constructeur</strong></p>
