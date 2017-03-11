@@ -17,7 +17,7 @@
 		<header class="inner">
 			<a id="forkme_banner" href="https://github.com/WebGE/PCF8574">View on GitHub</a>
 
-			<h1 id="project_title">Port d'E/S 8 bits PCF8574 (I²C)</h1>
+			<h1 id="project_title">PCF8574 : remote 8-bit I/O expander for I²C-bus</h1>
 			<h2 id="project_tagline">Description de la classe <strong><em>PCF8574</em></strong> développée en C# sous .NETMF 4.3 pour les cartes Netduino et
 				GHI FEZ (PANDA, COBRA...)</h2>
 
@@ -37,7 +37,7 @@
 			<ol>
 				<li>LE MATERIEL
 					<ol>
-						<li>Le circuit intégré PCF8574 : remote 8-bit I/O expander for I 2C-bus</li>
+						<li>Le circuit intégré PCF8574 : remote 8-bit I/O expander for I²C-bus</li>
 						<li><a href="#SSI">Exemple d'utilisation du circuit PCF8574 : l'IHM SSI</a></li>
 						<li><a href="#DUINO">Les cartes Netduino</a></li>
 						<li><a href="#FEZ">Les cartes FEZ</a> </li>
@@ -211,6 +211,7 @@
 			<strong>Exemple</strong><br>
 			<pre>
 using System.Threading;
+
 using Microtoolskit.Hardware.IO;
 
 namespace test
@@ -272,7 +273,7 @@ namespace test
 					<td><strong>byte Read</strong>()</td>
 					<td>
 						<p>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574(A).</p>
-						<p>Note : Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
+						<p><strong>Note</strong> <br> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
 							communication
 						</p>
 						<br>
@@ -285,7 +286,7 @@ namespace test
 					<td><strong>void Write</strong>(<strong>byte</strong> <em>value</em>)</td>
 					<td>
 						<p><em>value</em>: octet à écrire sur le port du PCF8574(A).</p>
-						<p>Note : Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
+						<p><strong>Note</strong> <br> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
 							communication.
 						</p>
 						<br>
