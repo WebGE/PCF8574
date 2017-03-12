@@ -1,0 +1,34 @@
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\le\PCF8574.dll
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\be\PCF8574.dll
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\le\PCF8574.pdb
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\be\PCF8574.pdb
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\PCF8574.dll
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\PCF8574.pdb
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\le\PCF8574.pe
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\le\PCF8574.pdbx
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\be\PCF8574.pe
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\bin\Debug\be\PCF8574.pdbx
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\obj\Debug\be\PCF8574.pe
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\obj\Debug\be\PCF8574.pdbx
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\obj\Debug\le\PCF8574.pe
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\obj\Debug\le\PCF8574.pdbx
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\obj\Debug\PCF8574.dll
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\obj\Debug\PCF8574.pdb
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\obj\Debug\PCF8574.csprojResolveAssemblyReference.cache
+C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\PCF8574\PCF8574\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\le\PCF8574.dll
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\be\PCF8574.dll
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\le\PCF8574.pdb
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\be\PCF8574.pdb
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\PCF8574.dll
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\PCF8574.pdb
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\le\PCF8574.pe
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\le\PCF8574.pdbx
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\be\PCF8574.pe
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\bin\Debug\be\PCF8574.pdbx
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\obj\Debug\be\PCF8574.pe
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\obj\Debug\be\PCF8574.pdbx
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\obj\Debug\le\PCF8574.pe
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\obj\Debug\le\PCF8574.pdbx
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\obj\Debug\PCF8574.dll
+C:\Users\phili\OneDrive\Documents\GitHub\PCF8574\PCF8574\PCF8574\obj\Debug\PCF8574.pdb
