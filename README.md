@@ -53,7 +53,7 @@ I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 -------------------
 Interrupt management
 
-<strong>To get started<strong>
+<strong>To get started</strong>
 --------------------
 See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Page</a>.
 <hr>
