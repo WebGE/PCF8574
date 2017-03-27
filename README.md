@@ -1,4 +1,4 @@
-# PCF8574 .NetMF Class
+# PCF8574
 
 <strong>Description</strong>
 -------------------------------------
