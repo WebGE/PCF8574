@@ -59,11 +59,11 @@ Interrupt management
 
 <strong>To get started</strong>
 --------------------
-See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Page</a> (in french).
+See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Page</a> (in French).
 
 <strong>Wiki</strong>
 --------------------
-See <a href="https://csharpembarquenetduino.wikispaces.com/Home" target="_blank">Netduino et FEZ</a> (in french).
+See <a href="https://csharpembarquenetduino.wikispaces.com/Home" target="_blank">Netduino et FEZ</a> (in French).
 
 <strong>Project site</strong>
 --------------------
