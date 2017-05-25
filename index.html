@@ -53,8 +53,10 @@
 				</li>
 				<li>LES FASCICULES
 					<ol>
-						<li><a href="https://csharpembarquenetduino.wikispaces.com/5a.+Les+fascicules+d%27exemples++cod%C3%A9s+en+CSharp+pour+la+carte+Netduino" target="_blank">Exemples de code pour les cartes Netduino</a></li>
-						<li><a href="https://csharpembarquenetduino.wikispaces.com/5b.+Le+fascicule+d%27exemples++cod%C3%A9s+en+CSharp+pour+les+cartes+Fez+%28PANDA+3%2C+etc%29" target="_blank">Exemples de code pour les cartes FEZ</a> </li>
+						<li><a href="https://csharpembarquenetduino.wikispaces.com/5a.+Les+fascicules+d%27exemples++cod%C3%A9s+en+CSharp+pour+la+carte+Netduino"
+							 target="_blank">Exemples de code pour les cartes Netduino</a></li>
+						<li><a href="https://csharpembarquenetduino.wikispaces.com/5b.+Le+fascicule+d%27exemples++cod%C3%A9s+en+CSharp+pour+les+cartes+Fez+%28PANDA+3%2C+etc%29"
+							 target="_blank">Exemples de code pour les cartes FEZ</a> </li>
 					</ol>
 				</li>
 				<li><a href="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library" target="_blank">La page du projet MicroToolsKit</a></li>
@@ -182,7 +184,7 @@
 			<hr>
 
 			<h4 id="WIKI">2.3 Les Wikis</h4>
-			 Des wikis sont dédiés aux cartes Netduino et GHI Fez. Ils proposent au téléchargement :
+			Des wikis sont dédiés aux cartes Netduino et GHI Fez. Ils proposent au téléchargement :
 			<ul>
 				<li><strong>Deux fascicules</strong> d'exemples de code pour les cartes <strong>Netduino</strong>. <a href="https://csharpembarquenetduino.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp"
 					 target="_blank">[lien]</a></li>
@@ -203,9 +205,8 @@
 			<p><strong>Création d'un projet avec l'IDE Visual Studio</strong></p>
 			<hr/>
 			<ol>
-				<li><strong>Créer </strong>un nouveau projet en suivant la démarche décrite dans le chapitre <em>"Premier programme en C# étape par étape"</em>	
-				du Wiki dédié à une carte <strong>Netduino</strong> ou du Wiki dédié à une carte <strong>GHI Fez. </strong>
-				Ces Wikis sont accessibles
+				<li><strong>Créer </strong>un nouveau projet en suivant la démarche décrite dans le chapitre <em>"Premier programme en C# étape par étape"</em>					du Wiki dédié à une carte <strong>Netduino</strong> ou du Wiki dédié à une carte <strong>GHI Fez. </strong> Ces Wikis
+					sont accessibles
 					<a href="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library" target="_blank">ici</a>.</li>
 				<li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> la bibliothèque <strong>MicroToolsKit</strong>					(
 					<a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/ " target="_blank ">nuget.org</a>) dans le projet. (Dans
@@ -268,6 +269,26 @@ namespace test
 				</tr>
 			</table>
 
+			<p><strong>Propriétés</strong></p>
+			<table width="100%">
+				<tr>
+					<td></td>
+					<td><strong>Syntaxe</strong></td>
+					<td><strong>Description</strong></td>
+				</tr>
+				<tr>
+					<td><img src="images/Property_20x.png"></td>
+					<td><strong>SLA</strong></td>
+					<td>Retourne l'adresse du circuit</td>
+				</tr>
+				<tr>
+					<td><img src="images/Property_20x.png"></td>
+					<td><strong>TransactionTimeOut</strong></td>
+					<td>Retourne le temps alloué à une transaction avant la génération d'une exception System.IO.IOException. (1000ms
+						par défaut)
+					</td>
+				</tr>
+			</table>
 			<p><strong>Méthodes publiques</strong></p>
 			<table>
 				<tr>
@@ -280,8 +301,8 @@ namespace test
 					<td><strong>byte Read</strong>()</td>
 					<td>
 						<p>Renvoie un octet représentatif de la valeur présente sur le port du PCF8574(A).</p>
-						<p><strong>Note</strong> <br> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
-							communication
+						<p><strong>Note</strong> <br> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error +
+							SLA" en cas d'échec de la communication
 						</p>
 						<strong>Exemple</strong><br>
 						<em>state = Leds.Read();</em>
@@ -292,8 +313,8 @@ namespace test
 					<td><strong>void Write</strong>(<strong>byte</strong> <em>value</em>)</td>
 					<td>
 						<p><em>value</em>: octet à écrire sur le port du PCF8574(A).</p>
-						<p><strong>Note</strong> <br> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error + SLA" en cas d'échec de la
-							communication.
+						<p><strong>Note</strong> <br> Une exception <em>System.IO.IOException</em> est générée avec le message "I2CBus error +
+							SLA" en cas d'échec de la communication.
 						</p>
 						<strong>Exemple</strong><br>
 						<em>Leds.Write(state);</em>
@@ -306,8 +327,8 @@ namespace test
 	<!-- FOOTER  -->
 	<div id="footer_wrap" class="outer">
 		<footer class="inner">
-			<p class="copyright">Classe <strong><em>PCF8574</em></strong> développée en C# sous .NETMF 4.3 pour les cartes Netduino,
-				et les cartes FEZ (PANDA, COBRA...) maintained by <a href="https://github.com/WebGE">WebGE</a></p>
+			<p class="copyright">Classe <strong><em>PCF8574</em></strong> développée en C# sous .NETMF 4.3 pour les cartes Netduino, et les cartes FEZ
+				(PANDA, COBRA...) maintained by <a href="https://github.com/WebGE">WebGE</a></p>
 			<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
 		</footer>
 	</div>
