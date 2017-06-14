@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FEZMFApplication1")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("FEZPandaIII")]
+[assembly: AssemblyDescription("Test code for PCF8574 class")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FEZMFApplication1")]
+[assembly: AssemblyCompany("WEBGEPEM")]
+[assembly: AssemblyProduct("GHI FEZ Panda III")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

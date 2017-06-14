@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Netduino")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Test code for PCF8574 Class")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Netduino")]
+[assembly: AssemblyCompany("WEBGEPEM")]
+[assembly: AssemblyProduct("Secret Labs Netduino plus 2")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

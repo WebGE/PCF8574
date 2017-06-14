@@ -15,7 +15,7 @@ namespace FezPanda
             byte state = 0xFE;
             PCF8574 Leds = new PCF8574(); // SLA = 0x38, Frequency = 100kHz
 #if LCD
-            ELCD162 lcd = new ELCD162("COM1");
+            ELCD162 lcd = new ELCD162("COM1"); // Serial Tinkerkit Connector
             lcd.Init(); lcd.ClearScreen(); lcd.CursorOff();
             lcd.PutString("Chaser demo"); lcd.SetCursor(0, 1);
 #endif
