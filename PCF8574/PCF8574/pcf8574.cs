@@ -24,7 +24,6 @@ namespace testMicroToolsKit
                 /// Slave Adress and frequency configuration
                 /// </summary>
                 private I2CDevice.Configuration _config;
-
                 private I2CDevice _i2cBus;
 
                 /// <summary>
