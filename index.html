@@ -76,7 +76,7 @@
 				<p align="center"><img src="images/pcf8574.png"></p>
 				<li><strong>Adressage</strong></li>
 				<p align="center"><img src="images/adressage.png"></p>
-				<li><strong>Documentation: </strong><a href="http://www.nxp.com/documents/data_sheet/PCF8574.pdf" target="_blank">pdf</a></li>
+				<li><strong>Documentation: </strong><a href="datasheets/PCF8574.pdf" target="_blank">pdf</a></li>
 				<li><strong>Distributeur: </strong>
 					<a href="http://uk.farnell.com/texas-instruments/pcf8574an/ic-i2c-bus-expander-16dip/dp/1703443" target="_blank">Farnell</a>
 				</li>
@@ -86,7 +86,7 @@
 			<h4 id="SSI">1.2 Exemple d'utilisation du circuit PCF8574 : l'IHM SSI</h4>
 			<p>Deux PCF8574 servent d'interface à l'<strong>I</strong>nterface <strong>H</strong>omme <strong>M</strong>achine <strong><a href="https://webge.github.io/IHMSSI/" target="_blank">SSI</a></strong>				qui se compose :</p>
 			<ul>
-				<li>d'un afficheur I²C 2x16 (MIDAS ou BATRON) à <a href="https://webge.github.io/LCDI2C/" target="_blank">circuit PCF2119</a>,</li>
+				<li>d'un afficheur I²C 2x16 (MIDAS ou BATRON) à circuit <a href="https://webge.github.io/I2CLCD/" target="_blank">PCF2119</a>,</li>
 				<li>de huit leds et de huit boutons-poussoir connectés à deux PCF8574.</li>
 			</ul>
 			<p align="center"><img src="images/IHMSISI.jpg" width="50%" height="50%"></p>
@@ -303,7 +303,7 @@ namespace test
 							SLA" en cas d'échec de la communication
 						</p>
 						<strong>Exemple</strong><br>
-						<em>state = Leds.Read();</em>
+						<em>byte state = Leds.Read();</em>
 					</td>
 				</tr>
 				<tr>
@@ -315,7 +315,7 @@ namespace test
 							SLA" en cas d'échec de la communication.
 						</p>
 						<strong>Exemple</strong><br>
-						<em>Leds.Write(state);</em>
+						<em>byte state = 0xFE; <br> Leds.Write(state);</em>
 					</td>
 				</tr>
 			</table>
