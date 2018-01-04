@@ -51,7 +51,7 @@ I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
 <strong>Tested on</strong>
 -------------------
-Fez Panda III, Netduino plus 2
+Fez Panda III, Netduino 2 plus
 
 <strong>Todo list</strong>
 -------------------
@@ -59,15 +59,19 @@ Interrupt management
 
 <strong>To get started</strong>
 --------------------
-See <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Pages</a> (in French).
+- <a href="http://webge.github.io/PCF8574/" target="_blank">PCF8574 GitHub Pages</a> (in French).
 
 <strong>Wiki</strong>
 --------------------
-See <a href="https://csharpembarquenetduino.wikispaces.com/Home" target="_blank">Netduino et FEZ</a> (in French).
+- <a href="https://csharpembarquenetduino.wikispaces.com/Home" target="_blank">Netduino et FEZ</a> (in French).
+
+<strong>News feed on Google+</strong>
+--------------------
+- <a href="https://plus.google.com/collection/oaaJX" target="_blank">Netduino et FEZ</a> (in French).
 
 <strong>Project site</strong>
 --------------------
-<a href ="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library">MicroToolsKit library</a> (in English).
+- <a href ="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library">MicroToolsKit library</a> (in English).
 <hr>
 
 <strong>Maintened by</strong> <a href="mailto:philippemariano@gmail.com">WebGe</a>
