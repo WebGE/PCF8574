@@ -12,7 +12,7 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 
 <strong>Hardware</strong>
 ---------------------
-<strong> Targets </strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 and COBRA 3.
+<strong> Targets </strong>: Netduino, Netduino2 plus, Netduino 3, FEZ PANDA 3 and COBRA 3.
 
 <strong>Software</strong>
 ---------------------
@@ -51,7 +51,7 @@ I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
 <strong>Tested on</strong>
 -------------------
-Fez Panda III, Netduino 2 plus
+Fez Panda III, Netduino2 plus
 
 <strong>Todo list</strong>
 -------------------
