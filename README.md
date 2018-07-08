@@ -63,11 +63,11 @@ Interrupt management
 
 <strong>Wiki</strong>
 --------------------
-- <a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf" target="_blank">Netduino et FEZ</a> (in French).
+- <a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf" target="_blank">C# Embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ<</a> (in French).
 
 <strong>News feed on Google+</strong>
 --------------------
-- <a href="https://plus.google.com/collection/oaaJX" target="_blank">C# Embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ</a> (in French).
+- <a href="https://plus.google.com/collection/oaaJX" target="_blank">Netduino et GHI FEZ</a> (in French).
 
 <strong>Project site</strong>
 --------------------
