@@ -1,0 +1,38 @@
+//////////////////////////////////////////////////////////////////////
+Nom du projet 	: Chenillard I2C
+Version 		: 1.0.0
+Créer le    	: 27/9/2014
+Mise à jour le	: 
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Auteur  		: Philippe Mariano                
+Lycée			: Pierre Emile MARTIN 18000 Bourges 
+Mail			: philippemariano@hotmail.fr 
+Site "WebGE"	: http://pmariano.free.fr  
+Github			: http://webge.github.io/PCF8574/  
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Répertoire		: NetduinoPCF8574
+Fichier source 	: Program.cs
+Language		: C#    
+Framework 		: NETMF
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Matériels		: Carte Netduino plus 2
+				: Carte SSI
+//////////////////////////////////////////////////////////////////////
+Commentaires////////////////////////////////////////////////////////// 
+----------------------------------------------------------------------
+- Objectif 
+	Réaliser un chenillard sur 8 Leds
+	     
+- Description détaillée du projet 
+	Dans le fascicule 1 C# : Exemples pour la carte Netduino plus 2
+
+- A consulter : la documentation de la classe PCF8574 sur Github
+				(lien ci-dessus)
+
+- Versions
+		1.0.0
+----------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////
