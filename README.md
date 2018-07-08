@@ -63,15 +63,15 @@ Interrupt management
 
 <strong>Wiki</strong>
 --------------------
-- <a href="https://csharpembarquenetduino.wikispaces.com/Home" target="_blank">Netduino et FEZ</a> (in French).
+- <a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf" target="_blank">Netduino et FEZ</a> (in French).
 
 <strong>News feed on Google+</strong>
 --------------------
-- <a href="https://plus.google.com/collection/oaaJX" target="_blank">Netduino et FEZ</a> (in French).
+- <a href="https://plus.google.com/collection/oaaJX" target="_blank">C# Embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ</a> (in French).
 
 <strong>Project site</strong>
 --------------------
-- <a href ="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:microtoolskit">MicroToolsKit library</a> (in English).
+- <a href ="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:6_microtoolskit" target="_blank">MicroToolsKit library</a> (in English).
 <hr>
 
 <strong>Maintened by</strong> <a href="mailto:philippemariano@gmail.com">WebGe</a>
